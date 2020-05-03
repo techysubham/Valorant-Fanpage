@@ -11,16 +11,16 @@ class Header extends React.Component {
             <img src={logo} alt="" className={styles.logo}/>
           </div>
           <div className={`col-2 d-flex justify-content-around ${styles.headerFont}`}>
-            <div className={`text-center ${styles.headerNav}`}>
+            <div className={`d-flex justify-content-center align-items-center ${styles.headerNav}`}>
               <p>GAME</p>
             </div>
-            <div className={`text-center ${styles.headerNav}`}>
+            <div className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
               <p>AGENTS</p>
             </div>
-            <div className={`text-center ${styles.headerNav}`}>
+            <div className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
               <p>ROLES</p>
             </div>
-            <div className={`text-center ${styles.headerNav}`}>
+            <div className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
               <p>MAPS</p>
             </div>
           </div>
