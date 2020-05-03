@@ -1,0 +1,25 @@
+.mainHead {
+  height: 7rem;
+  background-color: #111111;
+}
+
+.logo {
+  width: 135px;
+}
+
+.headerFont {
+  font-family: 'Bitter', serif;
+  color: aliceblue;
+  font-size: 12px;
+}
+
+.headerNav {
+  width: 70px;
+  height: 7rem;
+  border-bottom: 3px solid #111111;
+}
+
+.headerNav:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #FF4655;
+}
