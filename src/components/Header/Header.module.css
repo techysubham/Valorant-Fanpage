@@ -6,3 +6,14 @@
 .logo {
   width: 135px;
 }
+
+.headerFont {
+  font-family: 'Bitter', serif;
+  color: aliceblue;
+  font-size: 12px;
+}
+
+.headerNav {
+  width: 50px;
+  height: 100%;
+}

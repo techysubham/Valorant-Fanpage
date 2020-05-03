@@ -6,12 +6,23 @@ class Header extends React.Component {
   render() {
     return (
       <header>
-        <div className={`d-flex align-items-center ${styles.mainHead}`}>
+        <div className={`d-flex align-items-center justify-content-around ${styles.mainHead}`}>
           <div className="col-6">
             <img src={logo} alt="" className={styles.logo}/>
           </div>
-          <div className="col-6">
-
+          <div className={`col-2 d-flex justify-content-around ${styles.headerFont}`}>
+            <div className={`text-center ${styles.headerNav}`}>
+              <p>GAME</p>
+            </div>
+            <div className={`text-center ${styles.headerNav}`}>
+              <p>AGENTS</p>
+            </div>
+            <div className={`text-center ${styles.headerNav}`}>
+              <p>ROLES</p>
+            </div>
+            <div className={`text-center ${styles.headerNav}`}>
+              <p>MAPS</p>
+            </div>
           </div>
         </div>
       </header>
