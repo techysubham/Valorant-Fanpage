@@ -4,3 +4,21 @@
   height: 750px;
   width: 100%;
 }
+
+.valorantLogo {
+  width: 700px;
+}
+
+.logoContainer {
+  height: 650px;
+}
+
+.slideIn {
+  animation: slide-in 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in {
+  0% { transform: translate3d(0, 100%, 0); }
+  100% { transform: translate3d(0, 0%, 0); }
+}
