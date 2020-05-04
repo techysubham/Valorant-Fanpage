@@ -13,8 +13,15 @@
   height: 650px;
 }
 
+.test{
+  width: 400px;
+  height: 200px;
+  background-color: #0f1923;
+  border-radius: 10px;
+}
+
 .slideIn {
-  animation: slide-in 1.5s;
+  animation: slide-in 2s;
   animation-fill-mode: forwards;
 }
 
