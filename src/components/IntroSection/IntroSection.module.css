@@ -1,0 +1,36 @@
+.introSectionBackground {
+  background-image: url("../../assets/valorant-bg.jpg");
+  background-size: cover;
+  height: 750px;
+  width: 100%;
+}
+
+.valorantLogo {
+  width: 700px;
+}
+
+.logoContainer {
+  height: 650px;
+}
+
+.introBoxFont {
+  color: antiquewhite;
+  font-family: 'Bitter', serif;
+}
+
+.introBox {
+  width: 400px;
+  height: 200px;
+  background-color: #0f1923;
+  border-radius: 10px;
+}
+
+.slideIn {
+  animation: slide-in 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in {
+  0% { transform: translate3d(0, 100%, 0); }
+  100% { transform: translate3d(0, 0%, 0); }
+}
