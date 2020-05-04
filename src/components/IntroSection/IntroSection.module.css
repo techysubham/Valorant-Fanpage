@@ -1,0 +1,6 @@
+.introSectionBackground {
+  background-image: url("../../assets/valorant-bg.jpg");
+  background-size: cover;
+  height: 750px;
+  width: 100%;
+}
