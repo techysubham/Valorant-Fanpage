@@ -13,7 +13,12 @@
   height: 650px;
 }
 
-.test{
+.introBoxFont {
+  color: antiquewhite;
+  font-family: 'Bitter', serif;
+}
+
+.introBox {
   width: 400px;
   height: 200px;
   background-color: #0f1923;
