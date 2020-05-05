@@ -1,5 +1,5 @@
 .mainFooter {
-  height: 15rem;
+  height: 19rem;
   background-color: #111111;
   border-top: 2px solid #FF4655;
 }
@@ -12,4 +12,15 @@
   font-family: 'Bitter', serif;
   font-size: 10px;
   color: lightgrey;
+}
+
+.ratingSizing {
+  width: 70px;
+}
+
+.ratingDetails {
+  color: aliceblue;
+  font-family: 'Bitter', serif;
+  margin-bottom: 0;
+  font-size: 13px;
 }
