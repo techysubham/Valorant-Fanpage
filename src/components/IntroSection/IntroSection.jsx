@@ -12,8 +12,10 @@ class IntroSection extends React.Component {
             <div className={`d-flex justify-content-center align-items-center ${styles.introBox} ${styles.slideIn}`}>
               <div className={`${styles.innerIntroBox}`}>
                 <div>
-                  <h5 className={`text-center ${styles.introBoxFont}`}>A 5v5 character-based <br></br>tactical shooter by Riot Games</h5>
-                  <h6 className={`text-center ${styles.introBoxFont}`}>Interested?</h6>
+                  <h5 className={`mt-3 text-center ${styles.introBoxFont}`}>A 5v5 character-based <br></br>tactical shooter by Riot Games</h5>
+                  <div className="d-flex justify-content-center">
+                    <div className={`mt-4 text-center d-flex justify-content-center align-items-center ${styles.learnMoreButton} ${styles.font} ${styles.fourth}`}>Learn More</div>
+                  </div>
                 </div>
               </div>
             </div>
