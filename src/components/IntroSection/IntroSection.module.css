@@ -25,6 +25,13 @@
   border-radius: 10px;
 }
 
+.innerIntroBox {
+  width: 380px;
+  height: 180px;
+  padding: 10px;
+  border: 1px solid antiquewhite;
+}
+
 .slideIn {
   animation: slide-in 2s;
   animation-fill-mode: forwards;

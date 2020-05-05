@@ -9,9 +9,13 @@ class IntroSection extends React.Component {
         <div className={styles.logoContainer}>
           <img src={logo} alt="" className={`${styles.slideIn} ${styles.valorantLogo}`}/>
           <div className="d-flex justify-content-center">
-            <div className={`${styles.introBox} ${styles.slideIn}`}>
-              <h5 className={`text-center ${styles.introBoxFont}`}>A 5v5 character-based <br></br>tactical shooter by Riot Games</h5>
-              <h6 className={`text-center ${styles.introBoxFont}`}>Interested?</h6>
+            <div className={`d-flex justify-content-center align-items-center ${styles.introBox} ${styles.slideIn}`}>
+              <div className={`${styles.innerIntroBox}`}>
+                <div>
+                  <h5 className={`text-center ${styles.introBoxFont}`}>A 5v5 character-based <br></br>tactical shooter by Riot Games</h5>
+                  <h6 className={`text-center ${styles.introBoxFont}`}>Interested?</h6>
+                </div>
+              </div>
             </div>
           </div>
         </div>
