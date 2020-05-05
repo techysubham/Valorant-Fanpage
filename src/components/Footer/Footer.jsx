@@ -8,7 +8,12 @@ class Footer extends React.Component {
       <footer>
         <div className={`${styles.mainFooter}`}>
           <div>
-            <img src={fistLogo} alt="" className={styles.fistLogoSize}/>
+            <div className="d-flex justify-content-center">
+              <img src={fistLogo} alt="" className={`mt-4 ${styles.fistLogoSize}`}/>
+            </div>
+            <div>
+              <p className={`d-flex justify-content-center ${styles.footerNote}`}>Notice: This is a fake Valorant game website. I do not have any business with Riot Games.</p>
+            </div>
           </div>
         </div>
       </footer>

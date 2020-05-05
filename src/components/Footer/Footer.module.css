@@ -7,3 +7,9 @@
 .fistLogoSize {
   width: 170px;
 }
+
+.footerNote {
+  font-family: 'Bitter', serif;
+  font-size: 10px;
+  color: lightgrey;
+}
