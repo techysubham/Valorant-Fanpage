@@ -18,11 +18,62 @@
   font-family: 'Bitter', serif;
 }
 
+.font {
+  font-family: 'Bitter', serif;
+}
+
 .introBox {
   width: 400px;
   height: 200px;
   background-color: #0f1923;
   border-radius: 10px;
+}
+
+.innerIntroBox {
+  width: 380px;
+  height: 180px;
+  padding: 10px;
+  border: 1px solid antiquewhite;
+}
+
+.learnMoreButton {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  background-color: antiquewhite;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  height: 50px;
+}
+
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.fourth {
+  border-color: #FF4655;
+  background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #FF4655 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 400ms ease-in-out;
+  transition: background 400ms ease-in-out;
+}
+.fourth:hover {
+  background-position: 0;
 }
 
 .slideIn {

@@ -3,12 +3,22 @@ import styles from "./Header.module.css";
 import logo from '../../assets/valorant-logo.png'
 
 class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.setScreenToMain = this.setScreenToMain.bind(this)
+  }
+
+  setScreenToMain() {
+    const setScreenMethod = this.props.setScreen;
+    setScreenMethod("main")
+  }
+
   render() {
     return (
       <header>
         <div className={`d-flex align-items-center justify-content-around ${styles.mainHead}`}>
           <div className="col-6">
-            <img src={logo} alt="" className={styles.logo}/>
+            <img src={logo} alt="" className={styles.logo} onClick={this.setScreenToMain}/>
           </div>
           <div className={`col-2 d-flex justify-content-around ${styles.headerFont}`}>
             <div className={`d-flex justify-content-center align-items-center ${styles.headerNav}`}>
