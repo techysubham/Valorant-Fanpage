@@ -1,0 +1,28 @@
+.sectionOne {
+  height: 750px;
+  width: 100%;
+  background: antiquewhite;
+}
+
+.bigFont {
+  font-family: 'Anton', sans-serif;
+  font-size: 4.2rem;
+}
+
+.topPadding {
+  padding-top: 200px;
+}
+
+.shootingGifSize {
+  width: 650px;
+}
+
+.slideIn {
+  animation: slide-in 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in {
+  0% { transform: translate3d(0, 100%, 0); }
+  100% { transform: translate3d(0, 0%, 0); }
+}

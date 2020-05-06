@@ -2,7 +2,7 @@ import React from "react"
 import Header from "./components/Header/Header"
 import IntroSection from "./components/IntroSection/IntroSection"
 import Footer from "./components/Footer/Footer"
-import GameInfo from "./components/GameInfo/GameInfo"
+import GameInfoSectionOne from "./components/GameInfoSectionOne/GameInfoSectionOne"
 
 class App extends React.Component {
   constructor(props) {
@@ -27,7 +27,7 @@ class App extends React.Component {
       )
     } else if (this.state.screen === "gameInfo") {
       return (
-        <GameInfo/>
+        <GameInfoSectionOne/>
       )
     }
   }
