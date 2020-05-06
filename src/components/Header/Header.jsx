@@ -5,12 +5,18 @@ import logo from '../../assets/valorant-logo.png'
 class Header extends React.Component {
   constructor(props) {
     super(props);
-    this.setScreenToMain = this.setScreenToMain.bind(this)
+    this.setScreenToMain = this.setScreenToMain.bind(this);
+    this.setScreenToGameInfo = this.setScreenToGameInfo.bind(this)
   }
 
   setScreenToMain() {
     const setScreenMethod = this.props.setScreen;
     setScreenMethod("main")
+  }
+
+  setScreenToGameInfo() {
+    const setScreenMethod = this.props.setScreen;
+    setScreenMethod("gameInfo")
   }
 
   render() {
@@ -21,7 +27,7 @@ class Header extends React.Component {
             <img src={logo} alt="" className={styles.logo} onClick={this.setScreenToMain}/>
           </div>
           <div className={`col-2 d-flex justify-content-around ${styles.headerFont}`}>
-            <div className={`d-flex justify-content-center align-items-center ${styles.headerNav}`}>
+            <div onClick={this.setScreenToGameInfo} className={`d-flex justify-content-center align-items-center ${styles.headerNav}`}>
               <p>GAME</p>
             </div>
             <div className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
