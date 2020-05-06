@@ -2,6 +2,8 @@ import React from "react"
 import Header from "./components/Header/Header"
 import IntroSection from "./components/IntroSection/IntroSection"
 import Footer from "./components/Footer/Footer"
+import GameInfoSectionOne from "./components/GameInfoSectionOne/GameInfoSectionOne"
+import GameInfoSectionTwo from "./components/GameInfoSectionTwo/GameInfoSectionTwo"
 
 class App extends React.Component {
   constructor(props) {
@@ -22,7 +24,15 @@ class App extends React.Component {
   setScreenRender() {
     if (this.state.screen === "main") {
       return (
-        <IntroSection />
+        <IntroSection setScreen={this.setScreen}/>
+      )
+    } else if (this.state.screen === "gameInfo") {
+      return (
+        <div className="background">
+          <GameInfoSectionOne/>
+          <div className="container separatingBorder"></div>
+          <GameInfoSectionTwo/>
+        </div>
       )
     }
   }

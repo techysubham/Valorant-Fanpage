@@ -1,0 +1,46 @@
+.sectionOne {
+  height: 700px;
+  width: 100%;
+  background: antiquewhite;
+}
+
+.bigFont {
+  font-family: 'Anton', sans-serif;
+  font-size: 4.2rem;
+}
+
+.smallFont {
+  font-family: 'Bitter', serif;
+  line-height: 33px;
+  color: grey;
+}
+
+
+.topPadding {
+  padding-top: 180px;
+}
+
+.shootingGifSize {
+  width: 650px;
+}
+
+.slideIn {
+  animation: slide-in 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in {
+  0% { transform: translate3d(0, 100%, 0); }
+  100% { transform: translate3d(0, 0%, 0); }
+}
+
+.fadeIn {
+  animation: fade-in 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  50% { opacity: 0;}
+  100% { opacity: 1; }
+}
