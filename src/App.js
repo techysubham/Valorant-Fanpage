@@ -22,7 +22,7 @@ class App extends React.Component {
   setScreenRender() {
     if (this.state.screen === "main") {
       return (
-        <IntroSection />
+        <IntroSection setScreen={this.setScreen}/>
       )
     }
   }
