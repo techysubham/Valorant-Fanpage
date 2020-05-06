@@ -9,6 +9,12 @@
   font-size: 4.2rem;
 }
 
+.smallFont {
+  font-family: 'Bitter', serif;
+  line-height: 33px;
+  color: grey;
+}
+
 .topPadding {
   padding-top: 180px;
 }
@@ -25,4 +31,15 @@
 @keyframes slide-in {
   0% { transform: translate3d(0, 100%, 0); }
   100% { transform: translate3d(0, 0%, 0); }
+}
+
+.fadeIn {
+  animation: fade-in 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  50% { opacity: 0;}
+  100% { opacity: 1; }
 }
