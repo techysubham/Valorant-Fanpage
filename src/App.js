@@ -4,6 +4,7 @@ import IntroSection from "./components/IntroSection/IntroSection"
 import Footer from "./components/Footer/Footer"
 import GameInfoSectionOne from "./components/GameInfoSectionOne/GameInfoSectionOne"
 import GameInfoSectionTwo from "./components/GameInfoSectionTwo/GameInfoSectionTwo"
+import Agents from "./components/Agents/Agents"
 
 class App extends React.Component {
   constructor(props) {
@@ -33,6 +34,10 @@ class App extends React.Component {
           <div className="container separatingBorder"></div>
           <GameInfoSectionTwo/>
         </div>
+      )
+    } else if (this.state.screen === "agentsInfo") {
+      return (
+        <Agents />
       )
     }
   }
