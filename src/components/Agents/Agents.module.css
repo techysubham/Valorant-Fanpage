@@ -1,3 +1,10 @@
-.breachImage {
-  width: 350px;
+.agentImage {
+  width: 400px;
+  padding: 10px;
+ background: rgb(17,17,17);
+background: linear-gradient(62deg, rgba(17,17,17,1) 37%, rgba(255,70,85,0.9416141456582633) 100%);
+}
+
+.agentContainer {
+
 }
