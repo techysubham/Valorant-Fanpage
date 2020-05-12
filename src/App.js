@@ -35,7 +35,7 @@ class App extends React.Component {
           <GameInfoSectionTwo/>
         </div>
       )
-    } else if (this.state.screen === "agents") {
+    } else if (this.state.screen === "agentsInfo") {
       return (
         <Agents />
       )
