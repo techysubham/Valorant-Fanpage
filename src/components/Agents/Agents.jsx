@@ -17,7 +17,7 @@ class Agents extends React.Component {
       <div className="d-flex justify-content-center">
         <div className="col-12 d-flex flex-wrap justify-content-around">
           <div className={`col-3 m-4 ${styles.agentContainer}`}>
-            <img src={breach} alt="" className={styles.agentImage}/>
+            <img src={breach} alt="" className={`${styles.agentImage} ${styles.breachContainer}`} />
           </div>
           <div className={`col-3 m-4 ${styles.agentContainer}`}>
             <img src={brimstone} alt="" className={styles.agentImage} />
