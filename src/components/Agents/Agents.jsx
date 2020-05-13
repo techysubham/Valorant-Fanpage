@@ -26,25 +26,25 @@ class Agents extends React.Component {
             <img src={cypher} alt="" className={`${styles.agentImage} ${styles.cypherContainer}`} />
           </div>
           <div className={`col-3 m-4 ${styles.agentContainer}`}>
-            <img src={jett} alt="" className={styles.agentImage} />
+            <img src={jett} alt="" className={`${styles.agentImage} ${styles.jettContainer}`} />
           </div>
           <div className={`col-3 m-4 ${styles.agentContainer}`}>
-            <img src={omen} alt="" className={styles.agentImage} />
+            <img src={omen} alt="" className={`${styles.agentImage} ${styles.omenContainer}`} />
           </div>
           <div className={`col-3 m-4 ${styles.agentContainer}`}>
-            <img src={phoenix} alt="" className={styles.agentImage} />
+            <img src={phoenix} alt="" className={`${styles.agentImage} ${styles.phoenixContainer}`} />
           </div>
           <div className={`col-3 m-4 ${styles.agentContainer}`}>
-            <img src={raze} alt="" className={styles.agentImage} />
+            <img src={raze} alt="" className={`${styles.agentImage} ${styles.razeContainer}`} />
           </div>
           <div className={`col-3 m-4 ${styles.agentContainer}`}>
-            <img src={sage} alt="" className={styles.agentImage} />
+            <img src={sage} alt="" className={`${styles.agentImage} ${styles.sageContainer}`} />
           </div>
           <div className={`col-3 m-4 ${styles.agentContainer}`}>
-            <img src={sova} alt="" className={styles.agentImage} />
+            <img src={sova} alt="" className={`${styles.agentImage} ${styles.sovaContainer}`} />
           </div>
           <div className={`col-3 m-4 ${styles.agentContainer}`}>
-            <img src={viper} alt="" className={styles.agentImage} />
+            <img src={viper} alt="" className={`${styles.agentImage} ${styles.viperContainer}`} />
           </div>
         </div>
       </div>
