@@ -12,11 +12,21 @@ import sova from "../../assets/sova.png";
 import viper from "../../assets/viper.png";
 
 class Agents extends React.Component {
+  constructor(props) {
+    super(props);
+    this.setAgentScreen = this.setAgentScreen.bind(this)
+  }
+
+  setAgentScreen(event) {
+    const setScreenMethod = this.props.setScreen;
+    setScreenMethod(event.currentTarget.id)
+  }
+
   render() {
     return (
       <div className={`d-flex justify-content-center ${styles.background}`}>
         <div className="col-12 d-flex flex-wrap justify-content-around">
-          <div className={`col-3 m-4 ${styles.agentContainer} ${styles.breachContainer}`}>
+          <div id="breach" onClick={this.setAgentScreen} className={`col-3 m-4 ${styles.agentContainer} ${styles.breachContainer}`}>
             <img src={breach} alt="" className={`${styles.agentImage} ${styles.slideIn}`} />
             <h2 className={`text-center m-3 p-2 ${styles.agentName} ${styles.slideIn}`}>BREACH</h2>
           </div>

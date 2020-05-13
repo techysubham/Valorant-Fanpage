@@ -1,10 +1,11 @@
-import React from "react"
-import Header from "./components/Header/Header"
-import IntroSection from "./components/IntroSection/IntroSection"
-import Footer from "./components/Footer/Footer"
-import GameInfoSectionOne from "./components/GameInfoSectionOne/GameInfoSectionOne"
-import GameInfoSectionTwo from "./components/GameInfoSectionTwo/GameInfoSectionTwo"
-import Agents from "./components/Agents/Agents"
+import React from "react";
+import Header from "./components/Header/Header";
+import IntroSection from "./components/IntroSection/IntroSection";
+import Footer from "./components/Footer/Footer";
+import GameInfoSectionOne from "./components/GameInfoSectionOne/GameInfoSectionOne";
+import GameInfoSectionTwo from "./components/GameInfoSectionTwo/GameInfoSectionTwo";
+import Agents from "./components/Agents/Agents";
+import Breach from "./components/AgentInfos/Breach"
 
 class App extends React.Component {
   constructor(props) {
@@ -37,7 +38,11 @@ class App extends React.Component {
       )
     } else if (this.state.screen === "agentsInfo") {
       return (
-        <Agents />
+        <Agents setScreen={this.setScreen}/>
+      )
+    } else if (this.state.screen === "breach") {
+      return (
+        <Breach />
       )
     }
   }
