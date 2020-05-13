@@ -14,7 +14,7 @@ import viper from "../../assets/viper.png";
 class Agents extends React.Component {
   render() {
     return (
-      <div className="d-flex justify-content-center">
+      <div className={`d-flex justify-content-center ${styles.background}`}>
         <div className="col-12 d-flex flex-wrap justify-content-around">
           <div className={`col-3 m-4 ${styles.agentContainer}`}>
             <img src={breach} alt="" className={`${styles.agentImage} ${styles.breachContainer}`} />
