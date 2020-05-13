@@ -3,6 +3,10 @@
   padding: 10px;
 }
 
+.agentContainer:hover{
+  cursor: pointer;
+}
+
 .breachContainer {
   background: rgb(59,58,58);
   background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(250,128,49,1) 100%);
@@ -60,4 +64,16 @@
 .agentName {
   font-family: 'Anton', sans-serif;
   background-color: #FF4655;
+  z-index: 1000;
+}
+
+.slideIn {
+  animation: slide-in 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in {
+  0% { transform: translate3d(0, 30%, 0); }
+  70% { transform: translate3d(0, -2%, 0); }
+  100% { transform: translate3d(0, 0%, 0); }
 }
