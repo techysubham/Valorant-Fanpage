@@ -7,6 +7,19 @@
   width: 750px;
 }
 
+.agentFont {
+  font-family: 'Anton', sans-serif;
+  color: #FF4655;
+  letter-spacing: 3px;
+  font-size: 4rem;
+}
+
+.agentInfoFont {
+  font-family: 'Bitter', serif;
+  color: antiquewhite;
+  line-height: 25px;
+}
+
 .breachBackground {
   background: rgb(59,58,58);
   background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(250,128,49,1) 100%);
@@ -64,5 +77,15 @@
 
 @keyframes slide-Over-Right {
   0% { transform: translate3d(300px, 0%, 0); }
+  100% { transform: translate3d(0, 0%, 0); }
+}
+
+.slideOverFromLeft {
+  animation: slide-Over-Left 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-Over-Left {
+  0% { transform: translate3d(-300px, 0%, 0); }
   100% { transform: translate3d(0, 0%, 0); }
 }
