@@ -1,79 +1,91 @@
-.agentImage {
-  width: 400px;
-  padding: 10px;
+.background {
+  height: 750px;
+  width: 100%;
 }
 
-.agentContainer:hover{
-  cursor: pointer;
+.agentImages {
+  width: 750px;
 }
 
-.breachContainer {
+.agentFont {
+  font-family: 'Anton', sans-serif;
+  color: #FF4655;
+  letter-spacing: 3px;
+  font-size: 4rem;
+}
+
+.agentInfoFont {
+  font-family: 'Bitter', serif;
+  color: antiquewhite;
+  line-height: 25px;
+}
+
+.breachBackground {
   background: rgb(59,58,58);
   background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(250,128,49,1) 100%);
 }
 
-.brimstoneContainer {
+.brimstoneBackground {
   background: rgb(59,58,58);
   background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(132,149,164,1) 100%);
 }
 
-.cypherContainer {
+.cypherBackground {
   background: rgb(59,58,58);
   background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(216,217,202,1) 100%);
 }
 
-.jettContainer {
+.jettBackground {
   background: rgb(59,58,58);
   background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(93,188,210,1) 100%);
 }
 
-.omenContainer {
+.omenBackground {
   background: rgb(59,58,58);
   background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(105,101,211,1) 100%);
 }
 
-.phoenixContainer {
+.phoenixBackground {
   background: rgb(59,58,58);
   background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(199,100,38,1) 100%);
 }
 
-.razeContainer {
+.razeBackground {
   background: rgb(59,58,58);
   background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(244,188,92,1) 100%);
 }
 
-.sageContainer {
+.sageBackground {
   background: rgb(59,58,58);
   background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(112,254,201,1) 100%);
 }
 
-.sovaContainer {
+.sovaBackground {
   background: rgb(59,58,58);
   background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(54,81,118,1) 100%);
 }
 
-.viperContainer {
+.viperBackground {
   background: rgb(59,58,58);
   background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(36,98,72,1) 100%);
 }
 
-.background {
-  background-color: rgb(59,58,58);
-}
-
-.agentName {
-  font-family: 'Anton', sans-serif;
-  background-color: #FF4655;
-  z-index: 1000;
-}
-
-.slideIn {
-  animation: slide-in 1.2s;
+.slideOverFromRight {
+  animation: slide-Over-Right 1.5s;
   animation-fill-mode: forwards;
 }
 
-@keyframes slide-in {
-  0% { transform: translate3d(0, 30%, 0); }
-  70% { transform: translate3d(0, -2%, 0); }
+@keyframes slide-Over-Right {
+  0% { transform: translate3d(300px, 0%, 0); }
+  100% { transform: translate3d(0, 0%, 0); }
+}
+
+.slideOverFromLeft {
+  animation: slide-Over-Left 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-Over-Left {
+  0% { transform: translate3d(-300px, 0%, 0); }
   100% { transform: translate3d(0, 0%, 0); }
 }
