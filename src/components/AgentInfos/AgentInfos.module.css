@@ -1,0 +1,23 @@
+.background {
+  height: 750px;
+  width: 100%;
+}
+
+.agentImages {
+  width: 750px;
+}
+
+.breachBackground {
+  background: rgb(59,58,58);
+  background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(250,128,49,1) 100%);
+}
+
+.slideOverFromRight {
+  animation: slide-Over-Right 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-Over-Right {
+  0% { transform: translate3d(300px, 0%, 0); }
+  100% { transform: translate3d(0, 0%, 0); }
+}
