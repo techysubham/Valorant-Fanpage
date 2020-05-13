@@ -68,7 +68,7 @@
 }
 
 .slideIn {
-  animation: slide-in 1.5s;
+  animation: slide-in 1.2s;
   animation-fill-mode: forwards;
 }
 
