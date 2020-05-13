@@ -56,3 +56,8 @@
 .background {
   background-color: rgb(59,58,58);
 }
+
+.agentName {
+  font-family: 'Anton', sans-serif;
+  background-color: #FF4655;
+}
