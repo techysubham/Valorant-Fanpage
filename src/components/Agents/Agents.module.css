@@ -7,3 +7,13 @@
   background: rgb(17,17,17);
   background: linear-gradient(62deg, rgba(17,17,17,1) 37%, rgba(250,128,49,1) 100%);
 }
+
+.brimstoneContainer {
+  background: rgb(17,17,17);
+  background: linear-gradient(62deg, rgba(17,17,17,1) 37%, rgba(132,149,164,1) 100%);
+}
+
+.cypherContainer {
+  background: rgb(17,17,17);
+  background: linear-gradient(62deg, rgba(17,17,17,1) 37%, rgba(216,217,202,1) 100%);
+}

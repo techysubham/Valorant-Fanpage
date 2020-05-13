@@ -20,10 +20,10 @@ class Agents extends React.Component {
             <img src={breach} alt="" className={`${styles.agentImage} ${styles.breachContainer}`} />
           </div>
           <div className={`col-3 m-4 ${styles.agentContainer}`}>
-            <img src={brimstone} alt="" className={styles.agentImage} />
+            <img src={brimstone} alt="" className={`${styles.agentImage} ${styles.brimstoneContainer}`} />
           </div>
           <div className={`col-3 m-4 ${styles.agentContainer}`}>
-            <img src={cypher} alt="" className={styles.agentImage} />
+            <img src={cypher} alt="" className={`${styles.agentImage} ${styles.cypherContainer}`} />
           </div>
           <div className={`col-3 m-4 ${styles.agentContainer}`}>
             <img src={jett} alt="" className={styles.agentImage} />
