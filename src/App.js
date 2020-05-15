@@ -15,7 +15,7 @@ import Raze from "./components/AgentInfos/Raze";
 import Sage from "./components/AgentInfos/Sage";
 import Sova from "./components/AgentInfos/Sova";
 import Viper from "./components/AgentInfos/Viper";
-
+import Roles from "./components/Roles/Roles"
 
 
 class App extends React.Component {
@@ -90,6 +90,10 @@ class App extends React.Component {
     } else if (this.state.screen === "viper") {
       return (
         <Viper />
+      )
+    } else if (this.state.screen === "roles") {
+      return(
+        <Roles />
       )
     }
   }
