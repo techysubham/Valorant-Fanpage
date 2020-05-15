@@ -8,7 +8,8 @@ class Header extends React.Component {
     this.setScreenToMain = this.setScreenToMain.bind(this);
     this.setScreenToGameInfo = this.setScreenToGameInfo.bind(this);
     this.setScreenToAgentsInfo = this.setScreenToAgentsInfo.bind(this);
-    this.setScreenToRoles = this.setScreenToRoles.bind(this)
+    this.setScreenToRoles = this.setScreenToRoles.bind(this);
+    this.setScreenToMaps = this.setScreenToMaps.bind(this)
   }
 
   setScreenToMain() {
@@ -31,6 +32,11 @@ class Header extends React.Component {
     setScreenMethod("roles")
   }
 
+  setScreenToMaps() {
+    const setScreenMethod = this.props.setScreen;
+    setScreenMethod("maps")
+  }
+
   render() {
     return (
       <header>
@@ -48,7 +54,7 @@ class Header extends React.Component {
             <div onClick={this.setScreenToRoles} className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
               <p>ROLES</p>
             </div>
-            <div className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
+            <div onClick={this.setScreenToMaps} className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
               <p>MAPS</p>
             </div>
           </div>

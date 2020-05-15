@@ -1,0 +1,14 @@
+.mainBackground {
+  background-color: rgb(59,58,58);
+}
+
+.mapSize {
+  width: 500px;
+}
+
+.mapNameFont {
+  font-family: 'Anton', sans-serif;
+  color: #FF4655;
+  letter-spacing: 3px;
+  font-size: 3rem;
+}
