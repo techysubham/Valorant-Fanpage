@@ -106,3 +106,35 @@ and (max-device-width: 500px) {
 }
 
 }
+
+@media only screen
+and (min-device-width: 501px)
+and (max-device-width: 750px) {
+
+.valorantLogo {
+  width: 500px;
+}
+
+.logoContainer {
+  text-align: center;
+}
+
+.introBox {
+  width: 350px;
+}
+
+.innerIntroBox {
+  width: 330px;
+}
+
+}
+
+@media only screen
+and (min-device-width: 951px)
+and (max-device-width: 1050px) {
+
+.introSectionBackground {
+  height: 1000px;
+}
+
+}
