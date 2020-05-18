@@ -85,3 +85,24 @@
   0% { transform: translate3d(0, 100%, 0); }
   100% { transform: translate3d(0, 0%, 0); }
 }
+
+@media only screen
+and (max-device-width: 500px) {
+
+.valorantLogo {
+  width: 350px;
+}
+
+.logoContainer {
+  text-align: center;
+}
+
+.introBox {
+  width: 350px;
+}
+
+.innerIntroBox {
+  width: 330px;
+}
+
+}
