@@ -16,6 +16,7 @@
 
 .ratingSizing {
   width: 70px;
+  height: 100px;
 }
 
 .ratingDetails {
@@ -23,4 +24,16 @@
   font-family: 'Bitter', serif;
   margin-bottom: 0;
   font-size: 13px;
+}
+
+@media only screen
+and (max-device-width: 500px) {
+
+  .fistLogoSize {
+    width: 150px;
+  }
+
+  .footerNote {
+    max-width: 300px;
+  }
 }

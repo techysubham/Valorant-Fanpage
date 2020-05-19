@@ -12,7 +12,7 @@ class Footer extends React.Component {
             <div className="d-flex justify-content-center">
               <img src={fistLogo} alt="" className={`mt-4 ${styles.fistLogoSize}`}/>
             </div>
-            <div>
+            <div className={`d-flex justify-content-center`}>
               <p className={`d-flex justify-content-center ${styles.footerNote}`}>Notice: This is a fake Valorant game website and is only a personal project. I do not have any business with Riot Games.</p>
             </div>
             <div className="d-flex justify-content-center mt-4">
