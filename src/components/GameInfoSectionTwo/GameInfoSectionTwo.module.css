@@ -44,3 +44,30 @@
   50% { opacity: 0;}
   100% { opacity: 1; }
 }
+
+@media only screen
+and (max-device-width: 500px) {
+
+    .topPadding {
+  padding-top: 50px;
+  }
+
+  .shootingGifSize {
+    width: 360px;
+  }
+
+  .mobileSizing {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .sectionOne {
+    height: 900px;
+  }
+
+  .mobileCenter {
+    display: flex;
+    justify-content: center;
+  }
+
+}
