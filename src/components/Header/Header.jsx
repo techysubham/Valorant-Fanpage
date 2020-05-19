@@ -5,11 +5,43 @@ import logo from '../../assets/valorant-logo.png'
 class Header extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      showNavBar: false
+    };
     this.setScreenToMain = this.setScreenToMain.bind(this);
     this.setScreenToGameInfo = this.setScreenToGameInfo.bind(this);
     this.setScreenToAgentsInfo = this.setScreenToAgentsInfo.bind(this);
     this.setScreenToRoles = this.setScreenToRoles.bind(this);
-    this.setScreenToMaps = this.setScreenToMaps.bind(this)
+    this.setScreenToMaps = this.setScreenToMaps.bind(this);
+    this.toggleNavBar = this.toggleNavBar.bind(this);
+    this.showNavBar = this.showNavBar.bind(this)
+  }
+
+  toggleNavBar() {
+    if (this.state.showNavBar === false) {
+      this.setState({
+        showNavBar: true
+      })
+    } else {
+      this.setState({
+        showNavBar: false
+      })
+    }
+  }
+
+  showNavBar() {
+    if (this.state.showNavBar === true) {
+      return (
+        <div className={`${styles.fixed} ${styles.headerFont} ${styles.navBar} ${styles.slideOverFromRight} mt-4 text-center`}>
+          <div className={styles.outerNavBar}>
+            <p className={`${styles.navBarLinks}`}>GAME</p>
+            <p className={`${styles.navBarLinks}`}>AGENTS</p>
+            <p className={`${styles.navBarLinks}`}>ROLES</p>
+            <p className={`${styles.navBarLinks}`}>MAPS</p>
+          </div>
+        </div>
+      )
+    }
   }
 
   setScreenToMain() {
@@ -44,7 +76,11 @@ class Header extends React.Component {
           <div className="col-6">
             <img src={logo} alt="" className={styles.logo} onClick={this.setScreenToMain}/>
           </div>
-          <div className={`col-2 d-flex justify-content-around ${styles.headerFont}`}>
+          <div className={`col-2 ${styles.showBars}`}>
+            <i onClick={this.toggleNavBar} class={`fas fa-bars fa-2x ${styles.bars}`}></i>
+              {this.showNavBar()}
+          </div>
+          <div className={`col-2 ${styles.headerFont} ${styles.navLinks}`}>
             <div onClick={this.setScreenToGameInfo} className={`d-flex justify-content-center align-items-center ${styles.headerNav}`}>
               <p>GAME</p>
             </div>
