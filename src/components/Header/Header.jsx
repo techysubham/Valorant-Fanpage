@@ -34,10 +34,10 @@ class Header extends React.Component {
       return (
         <div className={`${styles.fixed} ${styles.headerFont} ${styles.navBar} ${styles.slideOverFromRight} mt-4 text-center`}>
           <div className={styles.outerNavBar}>
-            <p className={`${styles.navBarLinks}`}>GAME</p>
-            <p className={`${styles.navBarLinks}`}>AGENTS</p>
-            <p className={`${styles.navBarLinks}`}>ROLES</p>
-            <p className={`${styles.navBarLinks}`}>MAPS</p>
+            <p onClick={this.setScreenToGameInfo} className={`${styles.navBarLinks}`}>GAME</p>
+            <p onClick={this.setScreenToAgentsInfo} className={`${styles.navBarLinks}`}>AGENTS</p>
+            <p onClick={this.setScreenToRoles} className={`${styles.navBarLinks}`}>ROLES</p>
+            <p onClick={this.setScreenToMaps} className={`${styles.navBarLinks}`}>MAPS</p>
           </div>
         </div>
       )
@@ -45,26 +45,51 @@ class Header extends React.Component {
   }
 
   setScreenToMain() {
+    if (this.state.showNavBar === true) {
+      this.setState({
+        showNavBar: false
+      })
+    }
     const setScreenMethod = this.props.setScreen;
-    setScreenMethod("main")
+    setScreenMethod("main");
   }
 
   setScreenToGameInfo() {
+    if (this.state.showNavBar === true) {
+      this.setState({
+        showNavBar: false
+      })
+    }
     const setScreenMethod = this.props.setScreen;
     setScreenMethod("gameInfo")
   }
 
   setScreenToAgentsInfo() {
+    if (this.state.showNavBar === true) {
+      this.setState({
+        showNavBar: false
+      })
+    }
     const setScreenMethod = this.props.setScreen;
     setScreenMethod("agentsInfo")
   }
 
   setScreenToRoles() {
+    if (this.state.showNavBar === true) {
+      this.setState({
+        showNavBar: false
+      })
+    }
     const setScreenMethod = this.props.setScreen;
     setScreenMethod("roles")
   }
 
   setScreenToMaps() {
+    if (this.state.showNavBar === true) {
+      this.setState({
+        showNavBar: false
+      })
+    }
     const setScreenMethod = this.props.setScreen;
     setScreenMethod("maps")
   }
