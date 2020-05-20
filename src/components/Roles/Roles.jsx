@@ -10,7 +10,7 @@ class Roles extends React.Component {
     return(
       <div className={styles.mainBackground}>
         <div className="container d-flex flex-wrap">
-          <div className="col-6 mt-5 mb-5">
+          <div className={`col-6 mt-5 mb-5 ${styles.mobileSizing}`}>
             <div className={`d-flex justify-content-center ${styles.slideOverFromLeft}`}>
               <img src={initiator} alt="" className={styles.roleImageSize}/>
             </div>
@@ -22,7 +22,7 @@ class Roles extends React.Component {
               </div>
             </div>
           </div>
-          <div className="col-6 mt-5 mb-5">
+          <div className={`col-6 mt-5 mb-5 ${styles.mobileSizing}`}>
             <div className={`d-flex justify-content-center ${styles.slideOverFromRight}`}>
               <img src={controller} alt="" className={styles.roleImageSize}/>
             </div>
@@ -34,7 +34,7 @@ class Roles extends React.Component {
               </div>
             </div>
           </div>
-          <div className="col-6 mt-5 mb-5">
+          <div className={`col-6 mt-5 mb-5 ${styles.mobileSizing}`}>
             <div className={`d-flex justify-content-center ${styles.slideOverFromLeft}`}>
               <img src={duelist} alt="" className={styles.roleImageSize} />
             </div>
@@ -47,7 +47,7 @@ class Roles extends React.Component {
             </div>
 
           </div>
-          <div className={`col-6 mt-5 mb-5`}>
+          <div className={`col-6 mt-5 mb-5 ${styles.mobileSizing}`}>
             <div className={`d-flex justify-content-center ${styles.slideOverFromRight}`}>
               <img src={sentinel} alt="" className={`${styles.roleImageSize}`} />
             </div>

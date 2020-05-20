@@ -12,3 +12,16 @@
   letter-spacing: 3px;
   font-size: 3rem;
 }
+
+@media only screen
+and (max-device-width: 500px) {
+
+  .mobileSizing {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .mapSize {
+  width: 320px;
+}
+}
