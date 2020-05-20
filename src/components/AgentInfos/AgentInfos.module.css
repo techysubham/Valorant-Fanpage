@@ -35,6 +35,7 @@
 
 .abilities {
   width: 80px;
+  height: 80px;
   margin-right: 30px;
 }
 
@@ -106,4 +107,30 @@
 @keyframes slide-Over-Left {
   0% { transform: translate3d(-300px, 0%, 0); }
   100% { transform: translate3d(0, 0%, 0); }
+}
+
+@media only screen
+and (max-device-width: 500px) {
+
+  .background {
+  height: 1700px;
+  width: 100%;
+  }
+
+  .agentImages {
+  width: 400px;
+}
+
+  .mobileDescription {
+    flex: 0 0 100%;
+    max-width: 100%;
+    order: 2;
+  }
+
+  .mobileImage {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 30px;
+    order: 1;
+  }
 }
