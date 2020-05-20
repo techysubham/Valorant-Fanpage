@@ -36,4 +36,8 @@ and (max-device-width: 500px) {
   .footerNote {
     max-width: 300px;
   }
+
+  .mainFooter {
+    height: 21rem;
+  }
 }

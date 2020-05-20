@@ -17,7 +17,7 @@ class Breach extends React.Component {
             <div className="mt-5">
               <div className="d-flex">
                 <img src={aftershock} alt="" className={`${styles.abilities}`}/>
-                <div>
+                <div className={`${styles.descriptionSizing}`}>
                   <h5 className={`${styles.abilityName}`}>AFTERSHOCK</h5>
                 <p className={`${styles.abilityDescription}`}>Equip a fusion charge. Fire the charge to set a slow-acting burst through the wall. The burst does heavy damage to anyone caught in its area.</p>
                 </div>
@@ -25,21 +25,21 @@ class Breach extends React.Component {
             </div>
             <div className="d-flex mt-4">
               <img src={flashpoint} alt="" className={`${styles.abilities}`} />
-              <div>
+              <div className={`${styles.descriptionSizing}`}>
                 <h5 className={`${styles.abilityName}`}>FLASHPOINT</h5>
                 <p className={`${styles.abilityDescription}`}>Equip a blinding charge. Fire the charge to set a fast-acting burst through the wall. The charge detonates to blind all players looking at it.</p>
               </div>
             </div>
             <div className="d-flex mt-4">
               <img src={faultLine} alt="" className={`${styles.abilities}`} />
-              <div>
+              <div className={`${styles.descriptionSizing}`}>
                 <h5 className={`${styles.abilityName}`}>FAULT LINE</h5>
                 <p className={`${styles.abilityDescription}`}>Equip a seismic blast. Hold Fire to increase the distance. Release to set off the quake, dazing all players in its zone and in a line up to the zone.</p>
               </div>
             </div>
             <div className="d-flex mt-4">
               <img src={rollingThunder} alt="" className={`${styles.abilities}`} />
-              <div>
+              <div className={`${styles.descriptionSizing}`}>
                 <h5 className={`${styles.abilityName}`}>ROLLING THUNDER</h5>
               <p className={`${styles.abilityDescription}`}>Equip a seismic charge. Fire to send a cascading quake through all terrain in a large cone. The quake dazes and knocks up anyone caught in it.</p>
               </div>

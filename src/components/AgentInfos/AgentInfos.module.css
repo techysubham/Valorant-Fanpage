@@ -1,5 +1,5 @@
 .background {
-  height: 750px;
+  height: 100%;
   width: 100%;
 }
 
@@ -113,12 +113,13 @@
 and (max-device-width: 500px) {
 
   .background {
-  height: 1700px;
+  height: 100%;
   width: 100%;
   }
 
   .agentImages {
   width: 400px;
+  height: 400px;
 }
 
   .mobileDescription {
@@ -132,5 +133,10 @@ and (max-device-width: 500px) {
     max-width: 100%;
     margin-top: 30px;
     order: 1;
+  }
+
+  .descriptionSizing {
+    flex: 0 0 70%;
+    max-width: 70%;
   }
 }
