@@ -105,3 +105,36 @@ and (max-device-width: 750px) {
     margin-right: 50px;
   }
 }
+
+@media only screen
+and (min-device-width: 751px)
+and (max-device-width: 950px) {
+
+   .topPadding {
+  padding-top: 50px;
+  }
+
+  .shootingGifSize {
+    width: 620px;
+  }
+
+  .mobileSizing {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .sectionOne {
+    height: 100%;
+  }
+
+  .mobileCenter {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 90%;
+    max-width: 90%;
+  }
+
+  .mobileMargin {
+    margin-right: 50px;
+  }
+}
