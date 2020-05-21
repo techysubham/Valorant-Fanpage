@@ -95,3 +95,38 @@ and (max-device-width: 500px) {
 }
 
 }
+
+@media only screen
+and (min-device-width: 501px)
+and (max-device-width: 750px) {
+
+  .logo {
+  width: 100px;
+}
+
+.navLinks {
+  display: none;
+}
+
+.showBars {
+  display: block;
+}
+
+}
+
+@media only screen
+and (min-device-width: 751px)
+and (max-device-width: 950px) {
+
+    .logo {
+  width: 100px;
+}
+
+.navLinks {
+  display: none;
+}
+
+.showBars {
+  display: block;
+}
+}

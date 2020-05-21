@@ -25,3 +25,31 @@ and (max-device-width: 500px) {
   width: 320px;
 }
 }
+
+@media only screen
+and (min-device-width: 501px)
+and (max-device-width: 750px) {
+
+  .mobileSizing {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .mapSize {
+  width: 450px;
+}
+}
+
+@media only screen
+and (min-device-width: 751px)
+and (max-device-width: 950px) {
+
+  .mobileSizing {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .mapSize {
+  width: 450px;
+}
+}
