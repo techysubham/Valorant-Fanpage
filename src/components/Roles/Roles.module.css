@@ -57,3 +57,13 @@ and (max-device-width: 500px) {
     max-width: 100%;
   }
 }
+
+@media only screen
+and (min-device-width: 501px)
+and (max-device-width: 750px) {
+
+  .mobileSizing {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

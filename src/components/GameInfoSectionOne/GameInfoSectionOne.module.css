@@ -57,15 +57,45 @@ and (max-device-width: 500px) {
   }
 
   .sectionOne {
-    height: 1050px;
+    height: 100%;
   }
 
   .shootingGifSize {
     width: 350px;
+    margin-bottom: 50px;
   }
 
   .mobileCenter {
     display: flex;
     justify-content: center;
   }
+}
+
+@media only screen
+and (min-device-width: 501px)
+and (max-device-width: 750px) {
+
+  .topPadding {
+  padding-top: 50px;
+}
+
+  .gameInfo {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .sectionOne {
+    height: 100%;
+  }
+
+  .shootingGifSize {
+    width: 550px;
+    margin-bottom: 50px;
+  }
+
+  .mobileCenter {
+    display: flex;
+    justify-content: center;
+  }
+
 }
