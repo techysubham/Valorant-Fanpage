@@ -41,3 +41,21 @@ and (max-device-width: 500px) {
     height: 21rem;
   }
 }
+
+@media only screen
+and (min-device-width: 501px)
+and (max-device-width: 750px) {
+
+  .fistLogoSize {
+    width: 150px;
+  }
+
+  .footerNote {
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .mainFooter {
+    height: 21rem;
+  }
+}
