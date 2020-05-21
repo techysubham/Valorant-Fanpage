@@ -25,7 +25,7 @@ Try the application at <a href="http://valorant.danny-dae-kim.com/">http://valor
 
   ```shell
   git clone https://github.com/dae-hyun-kim/valorant-mimic
-  cd covid-tracker
+  cd valorant-mimic
   ```
 
 2. Install all dependencies with NPM.
