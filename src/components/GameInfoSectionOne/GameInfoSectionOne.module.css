@@ -1,5 +1,5 @@
 .sectionOne {
-  height: 700px;
+  height: 100%;
   width: 100%;
   background: antiquewhite;
 }
@@ -102,7 +102,7 @@ and (max-device-width: 750px) {
 
 @media only screen
 and (min-device-width: 751px)
-and (max-device-width: 950px) {
+and (max-device-width: 1450px) {
 
    .topPadding {
   padding-top: 50px;
@@ -122,10 +122,19 @@ and (max-device-width: 950px) {
     margin-bottom: 50px;
   }
 
+  .boldSizing {
+    width: 700px;
+  }
+
+  .regSizing {
+    width: 650px;
+  }
+
   .mobileCenter {
     display: flex;
     justify-content: center;
     flex: 0 0 90%;
     max-width: 90%;
   }
+
 }

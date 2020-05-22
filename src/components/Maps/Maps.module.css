@@ -4,6 +4,7 @@
 
 .mapSize {
   width: 500px;
+  height: 500px;
 }
 
 .mapNameFont {
@@ -37,12 +38,13 @@ and (max-device-width: 750px) {
 
   .mapSize {
   width: 450px;
+  height: 450px;
 }
 }
 
 @media only screen
 and (min-device-width: 751px)
-and (max-device-width: 950px) {
+and (max-device-width: 1050px) {
 
   .mobileSizing {
     flex: 0 0 100%;
@@ -51,5 +53,6 @@ and (max-device-width: 950px) {
 
   .mapSize {
   width: 450px;
+  height: 450px;
 }
 }

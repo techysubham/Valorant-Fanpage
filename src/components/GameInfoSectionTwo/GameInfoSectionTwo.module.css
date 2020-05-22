@@ -108,7 +108,7 @@ and (max-device-width: 750px) {
 
 @media only screen
 and (min-device-width: 751px)
-and (max-device-width: 950px) {
+and (max-device-width: 1450px) {
 
    .topPadding {
   padding-top: 50px;
@@ -134,7 +134,20 @@ and (max-device-width: 950px) {
     max-width: 90%;
   }
 
+  .boldSizing {
+    width: 700px;
+  }
+
+  .regSizing {
+    width: 650px;
+  }
+
   .mobileMargin {
-    margin-right: 50px;
+    margin-right: 120px;
+  }
+
+  .flexEnd {
+    display: flex;
+    justify-content: flex-end;
   }
 }
