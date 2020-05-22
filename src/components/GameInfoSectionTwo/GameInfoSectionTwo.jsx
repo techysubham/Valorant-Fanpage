@@ -11,9 +11,11 @@ class GameInfoSectionTwo extends React.Component {
             <img src={abilitiesGif} alt="" className={`${styles.shootingGifSize} ${styles.topPadding}`}/>
           </div>
           <div className={`col-4 ${styles.mobileSizing} text-right`}>
-            <h2 className={` ${styles.slideIn} ${styles.topPadding} ${styles.bigFont} ${styles.mobileMargin}`}>...OR WITH STRATEGIC ABILITIES.  </h2>
+            <div className={`${styles.flexEnd}`}>
+              <h2 className={` ${styles.slideIn} ${styles.topPadding} ${styles.bigFont} ${styles.mobileMargin} ${styles.boldSizing}`}>...OR WITH STRATEGIC ABILITIES.  </h2>
+            </div>
             <div className="mt-5 mb-5 col-11">
-              <p className={`${styles.smallFont} ${styles.fadeIn}`}>Valorant has 10 agents, all with unique and specialized abilities to aid in the most intense battles, and allowing players to be creative and strategic with their approach to success.</p>
+              <p className={`${styles.smallFont} ${styles.fadeIn} ${styles.regSizing}`}>Valorant has 10 agents, all with unique and specialized abilities to aid in the most intense battles, and allowing players to be creative and strategic with their approach to success.</p>
             </div>
           </div>
         </div>

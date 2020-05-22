@@ -4,6 +4,7 @@
 
 .mapSize {
   width: 500px;
+  height: 500px;
 }
 
 .mapNameFont {
@@ -37,6 +38,7 @@ and (max-device-width: 750px) {
 
   .mapSize {
   width: 450px;
+  height: 450px;
 }
 }
 
@@ -51,5 +53,6 @@ and (max-device-width: 950px) {
 
   .mapSize {
   width: 450px;
+  height: 450px;
 }
 }
