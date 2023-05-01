@@ -1,29 +1,46 @@
 .mainFooter {
-  height: 19rem;
+  height: 5rem;
   background-color: #111111;
   border-top: 2px solid #FF4655;
 }
-
+.inlineflex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.firstLogoBox{
+  position: absolute;
+  padding-top: 60px;
+    left: 10px;
+}
 .fistLogoSize {
-  width: 170px;
+  height: 72px;
 }
 
 .footerNote {
+  padding-top: 30px;
+  position: absolute;
   font-family: 'Bitter', serif;
-  font-size: 10px;
+  font-size: 14px;
   color: lightgrey;
 }
-
+.ratingbox{
+  padding-top: 60px;
+  position: absolute;
+  right: 25px;
+}
 .ratingSizing {
-  width: 70px;
-  height: 100px;
+  width: 35px;
+  height: 50px;
 }
 
 .ratingDetails {
   color: aliceblue;
   font-family: 'Bitter', serif;
   margin-bottom: 0;
-  font-size: 13px;
+  /* font-size: 13px; */
+  font-size: 8px;
 }
 
 @media only screen

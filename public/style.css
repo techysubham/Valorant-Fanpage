@@ -1,11 +1,18 @@
-body {
-  margin: 0;
-}
+        ::-webkit-scrollbar {
+          background-color: #111111;
+          width: 8px;
+        }
+        ::-webkit-scrollbar-thumb {
+          background-color: #ff4655;
+          border-radius: 255px;
+        }
+        body {
+          margin: 0;
+        }
+        .separatingBorder {
+          border-top: 2px solid grey;
+        }
 
-.separatingBorder {
-  border-top: 2px solid grey;
-}
-
-.background {
-  background-color: antiquewhite;
-}
+        .background {
+          background-color: antiquewhite;
+        }
