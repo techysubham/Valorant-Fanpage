@@ -112,11 +112,17 @@ class Header extends React.Component {
             <div onClick={this.setScreenToAgentsInfo} className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
               <p>AGENTS</p>
             </div>
+            <div onClick={this.setScreenToAgentsInfo} className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
+              <p>WEAPONS</p>
+            </div>
             <div onClick={this.setScreenToRoles} className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
               <p>ROLES</p>
             </div>
             <div onClick={this.setScreenToMaps} className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
               <p>MAPS</p>
+            </div>
+            <div onClick={this.setScreenToMaps} className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
+              <p>EVENTS</p>
             </div>
           </div>
         </div>

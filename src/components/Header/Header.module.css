@@ -1,15 +1,20 @@
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+@font-face{
+  font-family: valorax;
+  src: url(valorax.otf)
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .mainHead {
-  height: 7rem;
+  height: 4rem;
   background-color: #111111;
 }
 
 .logo {
-  width: 135px;
+  width: 80px;
 }
 
 .navLinks {
@@ -22,14 +27,16 @@ html, body {
 }
 
 .headerFont {
-  font-family: 'Bitter', serif;
+  padding-top: 14px;
+  font-family: 'valorax';
   color: antiquewhite;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .headerNav {
-  width: 70px;
-  height: 7rem;
+  margin: 0 10px;
+  width: 80px;
+  height: 3.1rem;
   border-bottom: 3px solid #111111;
 }
 
@@ -61,7 +68,8 @@ html, body {
 .outerNavBar {
   padding: 10px;
   background-color: #111111;
-  border: 2px solid antiquewhite;;
+  border: 2px solid antiquewhite;
+  ;
 }
 
 .navBarLinks {
@@ -75,65 +83,63 @@ html, body {
 }
 
 @keyframes slide-Over-Right {
-  0% { transform: translate3d(100px, 0%, 0); }
-  100% { transform: translate3d(0, 0%, 0); }
+  0% {
+    transform: translate3d(100px, 0%, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0%, 0);
+  }
 }
 
-@media only screen
-and (max-device-width: 500px) {
-
-.logo {
-  width: 100px;
-}
-
-.navLinks {
-  display: none;
-}
-
-.showBars {
-  display: block;
-}
-
-}
-
-@media only screen
-and (min-device-width: 501px)
-and (max-device-width: 750px) {
+@media only screen and (max-device-width: 500px) {
 
   .logo {
-  width: 100px;
+    width: 100px;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .showBars {
+    display: block;
+  }
+
 }
 
-.navLinks {
-  display: none;
+@media only screen and (min-device-width: 501px) and (max-device-width: 750px) {
+
+  .logo {
+    width: 100px;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .showBars {
+    display: block;
+  }
+
 }
 
-.showBars {
-  display: block;
+@media only screen and (min-device-width: 751px) and (max-device-width: 950px) {
+
+  .logo {
+    width: 100px;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .showBars {
+    display: block;
+  }
 }
 
-}
-
-@media only screen
-and (min-device-width: 751px)
-and (max-device-width: 950px) {
-
-    .logo {
-  width: 100px;
-}
-
-.navLinks {
-  display: none;
-}
-
-.showBars {
-  display: block;
-}
-}
-
-@media only screen
-and (min-device-width: 951px)
-and (max-device-width: 1450px) {
+@media only screen and (min-device-width: 951px) and (max-device-width: 1450px) {
 
   .navLinks {
     display: flex;
