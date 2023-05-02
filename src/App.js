@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer";
 import GameInfoSectionOne from "./components/GameInfoSectionOne/GameInfoSectionOne";
 import GameInfoSectionTwo from "./components/GameInfoSectionTwo/GameInfoSectionTwo";
 import Agents from "./components/Agents/Agents";
+import Weapons from "./components/Weapons/Weapons";
 import Breach from "./components/AgentInfos/Breach";
 import Brimstone from "./components/AgentInfos/Brimstone";
 import Cypher from "./components/AgentInfos/Cypher";
@@ -52,7 +53,11 @@ class App extends React.Component {
       return (
         <Agents setScreen={this.setScreen}/>
       )
-    } else if (this.state.screen === "breach") {
+    } else if (this.state.screen === "weapons") {
+      return (
+        <Weapons setScreen={this.setScreen} />
+      )
+    }else if (this.state.screen === "breach") {
       return (
         <Breach />
       )

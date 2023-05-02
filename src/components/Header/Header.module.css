@@ -1,7 +1,8 @@
-@font-face{
+@font-face {
   font-family: valorax;
-  src: url(valorax.otf)
+  src: url(../../assets/valorax.otf)
 }
+
 html,
 body {
   max-width: 100%;
@@ -139,7 +140,15 @@ body {
   }
 }
 
+@media only screen and (min-device-width: 951px) and (max-device-width: 1244px) {
+.mainHead {
+  padding-right: 85px;
+  height: 4rem;
+  background-color: #111111;
+}
+}
 @media only screen and (min-device-width: 951px) and (max-device-width: 1450px) {
+
 
   .navLinks {
     display: flex;

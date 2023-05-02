@@ -39,28 +39,107 @@
   color: aliceblue;
   font-family: 'Bitter', serif;
   margin-bottom: 0;
-  /* font-size: 13px; */
   font-size: 8px;
 }
 
 @media only screen
-and (max-device-width: 500px) {
+and (min-device-width: 200px)
+and (max-device-width: 380px) {
+
+.firstLogoBox{
+    left: 0;
+}
 
   .fistLogoSize {
-    width: 150px;
+    height: 50px;
   }
 
   .footerNote {
-    max-width: 300px;
+    max-width: 100px;
+    font-size: 8px ;
+    text-align: center;
+  }
+.ratingbox{
+  width: 40px;
+  padding-top: 60px;
+  position: absolute;
+  right: 25px;
+}
+.ratingSizing{
+  margin-top: 10px;
+}
+.ratingDetails{
+  font-size: 6px;
+}
+  .mainFooter {
+    height: 6rem;
+  }
+}
+@media only screen
+and (min-device-width: 380px)
+and (max-device-width: 500px) {
+
+.firstLogoBox{
+    left: 0;
+}
+
+  .fistLogoSize {
+    height: 60px;
   }
 
+  .footerNote {
+    max-width: 200px;
+    font-size: 10px ;
+    text-align: center;
+  }
+.ratingbox{
+  width: 40px;
+  padding-top: 60px;
+  position: absolute;
+  right: 25px;
+}
+.ratingSizing{
+  margin-top: 10px;
+}
+.ratingDetails{
+  font-size: 6px;
+}
   .mainFooter {
-    height: 21rem;
+    height: 6rem;
   }
 }
 
 @media only screen
 and (min-device-width: 501px)
+and (max-device-width: 690px) {
+
+  .fistLogoSize {
+    height: 60px;
+  }
+
+  .footerNote {
+    max-width: 300px;
+    font-size: 10px ;
+    text-align: center;
+  }
+.ratingbox{
+  width: 40px;
+  padding-top: 60px;
+  position: absolute;
+  right: 25px;
+}
+.ratingSizing{
+  margin-top: 10px;
+}
+.ratingDetails{
+  font-size: 6px;
+}
+  .mainFooter {
+    height: 6rem;
+  }
+}
+@media only screen
+and (min-device-width: 690px)
 and (max-device-width: 750px) {
 
   .fistLogoSize {
@@ -73,6 +152,24 @@ and (max-device-width: 750px) {
   }
 
   .mainFooter {
-    height: 21rem;
+    height: 6rem;
+  }
+}
+
+@media only screen
+and (min-device-width: 750px)
+and (max-device-width: 1060px) {
+
+  .fistLogoSize {
+    width: 150px;
+  }
+
+  .footerNote {
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .mainFooter {
+    height: 6rem;
   }
 }

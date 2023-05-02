@@ -11,8 +11,10 @@ class Header extends React.Component {
     this.setScreenToMain = this.setScreenToMain.bind(this);
     this.setScreenToGameInfo = this.setScreenToGameInfo.bind(this);
     this.setScreenToAgentsInfo = this.setScreenToAgentsInfo.bind(this);
+    this.setScreenToWeapons = this.setScreenToWeapons.bind(this);
     this.setScreenToRoles = this.setScreenToRoles.bind(this);
     this.setScreenToMaps = this.setScreenToMaps.bind(this);
+    this.setScreenToEvents = this.setScreenToEvents.bind(this);
     this.toggleNavBar = this.toggleNavBar.bind(this);
     this.showNavBar = this.showNavBar.bind(this)
   }
@@ -36,8 +38,10 @@ class Header extends React.Component {
           <div className={styles.outerNavBar}>
             <p onClick={this.setScreenToGameInfo} className={`${styles.navBarLinks}`}>GAME</p>
             <p onClick={this.setScreenToAgentsInfo} className={`${styles.navBarLinks}`}>AGENTS</p>
+            <p onClick={this.setScreenToWeapons} className={`${styles.navBarLinks}`}>ARMS</p>
             <p onClick={this.setScreenToRoles} className={`${styles.navBarLinks}`}>ROLES</p>
             <p onClick={this.setScreenToMaps} className={`${styles.navBarLinks}`}>MAPS</p>
+            <p onClick={this.setScreenToEvents} className={`${styles.navBarLinks}`}>EVENTS</p>
           </div>
         </div>
       )
@@ -74,6 +78,16 @@ class Header extends React.Component {
     setScreenMethod("agentsInfo")
   }
 
+  setScreenToWeapons() {
+    if (this.state.showNavBar === true) {
+      this.setState({
+        showNavBar: false
+      })
+    }
+    const setScreenMethod = this.props.setScreen;
+    setScreenMethod("weapons")
+  }
+
   setScreenToRoles() {
     if (this.state.showNavBar === true) {
       this.setState({
@@ -94,6 +108,15 @@ class Header extends React.Component {
     setScreenMethod("maps")
   }
 
+  setScreenToEvents() {
+    if (this.state.showNavBar === true) {
+      this.setState({
+        showNavBar: false
+      })
+    }
+    const setScreenMethod = this.props.setScreen;
+    setScreenMethod("events")
+  }
   render() {
     return (
       <header>
@@ -112,7 +135,7 @@ class Header extends React.Component {
             <div onClick={this.setScreenToAgentsInfo} className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
               <p>AGENTS</p>
             </div>
-            <div onClick={this.setScreenToAgentsInfo} className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
+            <div onClick={this.setScreenToWeapons} className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
               <p>WEAPONS</p>
             </div>
             <div onClick={this.setScreenToRoles} className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
@@ -121,7 +144,8 @@ class Header extends React.Component {
             <div onClick={this.setScreenToMaps} className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
               <p>MAPS</p>
             </div>
-            <div onClick={this.setScreenToMaps} className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
+            {/* Removing from element below onClick={this.setScreenToEvents} */}
+            <div  className={`text-center justify-content-center d-flex align-items-center ${styles.headerNav}`}>
               <p>EVENTS</p>
             </div>
           </div>

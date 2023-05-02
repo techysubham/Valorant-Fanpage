@@ -1,0 +1,192 @@
+.weaponImage {
+  width: 240px;
+  padding: 10px;
+}
+/* todo: fix for phone and additional styling for the boxes */
+
+.weaponContainer {
+  flex: 0 0 25%;
+  max-width: 40%;
+}
+
+.weaponContainer:hover {
+  cursor: pointer;
+}
+
+.classicContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(250, 128, 49, 1) 100%);
+}
+
+.shortyContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(132, 149, 164, 1) 100%);
+}
+
+.freenzyContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(216, 217, 202, 1) 100%);
+}
+
+.ghostContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(93, 188, 210, 1) 100%);
+}
+
+.sheriffContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(105, 101, 211, 1) 100%);
+}
+
+.stingerContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(199, 100, 38, 1) 100%);
+}
+
+.spectreContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(244, 188, 92, 1) 100%);
+}
+
+.buckyContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(112, 254, 201, 1) 100%);
+}
+
+.judgeContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(54, 81, 118, 1) 100%);
+}
+
+.bulldogContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(36, 98, 72, 1) 100%);
+}
+
+.guardianContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgb(59, 58, 58, 1) 50%, rgb(136, 82, 141) 100%);
+}
+
+.phantomContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgb(98, 94, 36) 100%);
+}
+
+.vandalContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgb(36, 73, 98) 100%);
+}
+
+.marshalContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgb(98, 36, 95) 100%);
+}
+
+.operatorContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgb(98, 36, 36) 100%);
+}
+
+.aresContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgb(48, 98, 36) 100%);
+}
+
+.odinContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgb(98, 59, 36) 100%);
+}
+
+.meleeContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgb(36, 42, 98) 100%);
+}
+
+.background {
+  background-color: rgb(59, 58, 58);
+}
+
+.weaponName {
+  font-family: 'Anton', sans-serif;
+  background-color: #FF4655;
+  z-index: 1000;
+}
+
+.slideIn {
+  animation: slide-in 1.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translate3d(0, 30%, 0);
+  }
+
+  70% {
+    transform: translate3d(0, -2%, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0%, 0);
+  }
+}
+
+@media only screen and (max-device-width: 500px) {
+
+  .weaponContainer {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .weaponImage {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+  }
+
+  .mobileCenter {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-device-width: 501px) and (max-device-width: 750px) {
+
+  .weaponContainer {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .weaponImage {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+  }
+
+  .mobileCenter {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* @media only screen
+and (min-device-width: 751px)
+and (max-device-width: 1550px) {
+
+  .weaponContainer {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+
+  .weaponImage {
+  width: 400px;
+  padding: 10px;
+  padding: 10px;
+}
+
+  .mobileCenter {
+    display: flex;
+    justify-content: center;
+  }
+} */
