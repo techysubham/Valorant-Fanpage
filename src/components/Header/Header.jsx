@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Header.module.css";
-import logo from '../../assets/valorant-logo.png'
+import logo from '../../assets/valo.png'
 
 class Header extends React.Component {
   constructor(props) {
