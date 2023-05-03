@@ -1,0 +1,332 @@
+@font-face {
+  font-family: valorax;
+  src: url(../../assets/valorax.otf)
+}
+
+.weaponImage {
+  width: 240px;
+  padding: 10px;
+}
+
+.weaponContainer {
+  flex: 0 0 25%;
+  max-width: 40%;
+}
+
+
+.classicContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(45deg, rgba(59, 58, 58, 1) 55%, rgba(250, 128, 49, 1) 100%);
+}
+
+.classicContainer Img {
+  width: 240px;
+}
+
+.leftFlank {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  text-align: left;
+  font-family: 'Anton', sans-serif;
+  color: #FF4655;
+  z-index: 1000;
+}
+
+.leftFlank p img {
+  width: 30px;
+}
+
+.weaponType {
+  position: absolute;
+  top: 25px;
+  right: 15px;
+  text-align: right;
+  font-family: 'Valorax';
+  color: black;
+  z-index: 1000;
+}
+
+.rightFlank {
+  position: absolute;
+  text-align: right;
+  bottom: 0;
+  right: 15px;
+  font-family: 'Anton', sans-serif;
+  color: #FF4655;
+  z-index: 1000;
+}
+
+.rightFlank p img {
+  width: 30px;
+}
+
+.shortyContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(132, 149, 164, 1) 100%);
+}
+
+.shortyContainer Img {
+  width: 300px;
+}
+
+.freenzyContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(216, 217, 202, 1) 100%);
+}
+
+.freenzyContainer Img {
+  width: 240px;
+}
+
+.ghostContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(93, 188, 210, 1) 100%);
+}
+
+.sheriffContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(105, 101, 211, 1) 100%);
+}
+
+.sheriffContainer img {
+  width: 250px;
+}
+
+.stingerContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(199, 100, 38, 1) 100%);
+}
+
+.spectreContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(244, 188, 92, 1) 100%);
+}
+
+.buckyContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(112, 254, 201, 1) 100%);
+}
+
+.judgeContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(54, 81, 118, 1) 100%);
+}
+
+.bulldogContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgba(36, 98, 72, 1) 100%);
+}
+
+.guardianContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgb(59, 58, 58, 1) 50%, rgb(136, 82, 141) 100%);
+}
+
+.phantomContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgb(98, 94, 36) 100%);
+}
+
+.vandalContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgb(36, 73, 98) 100%);
+}
+
+.marshalContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgb(98, 36, 95) 100%);
+}
+
+.operatorContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgb(98, 36, 36) 100%);
+}
+
+.aresContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgb(48, 98, 36) 100%);
+}
+
+.odinContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgb(98, 59, 36) 100%);
+}
+
+.meleeContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(55deg, rgba(59, 58, 58, 1) 50%, rgb(36, 42, 98) 100%);
+}
+
+.meleeContainer {
+  width: 220px;
+}
+
+.background {
+  background-color: rgb(59, 58, 58);
+}
+
+.weaponName {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Valorax';
+  color: #FF4655;
+  z-index: 1000;
+}
+
+.slideIn {
+  animation: slide-in 1.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translate3d(0, 30%, 0);
+  }
+
+  70% {
+    transform: translate3d(0, -2%, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0%, 0);
+  }
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 368px) {
+
+  .weaponContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #FF4655;
+    height: 380px;
+    width: 300px;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+.weaponType {
+  top: 60px;
+  right: 15px;
+}
+  .weaponImage {
+    height: auto;
+    width: 270px;
+    padding: 10px;
+  }
+  .meleeContainer img {
+    width: 180px;
+  }
+
+  .mobileCenter {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-device-width: 369px) and (max-device-width: 500px) {
+
+  .weaponContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #FF4655;
+    height: 400px;
+    width: 400px;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .meleeContainer img {
+    width: 220px;
+  }
+  .weaponImage {
+    height: auto;
+    width: 350px;
+    padding: 10px;
+  }
+
+  .mobileCenter {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-device-width: 501px) and (max-device-width: 750px) {
+
+  .weaponContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #FF4655;
+    height: 400px;
+    width: 500px;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .weaponImage {
+    height: auto;
+    width: 400px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-device-width: 751px) and (max-device-width: 999px) {
+
+  .weaponContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #FF4655;
+    border-radius: 5px;
+    height: 400px;
+    width: 500px;
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+
+  .weaponImage {
+    width: 300px;
+    padding: 10px;
+  }
+
+  .meleeContainer img {
+    width: 220px;
+  }
+
+  .mobileCenter {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1550px) {
+
+  .weaponContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #FF4655;
+    border-radius: 5px;
+    height: 400px;
+    width: 500px;
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+
+  .weaponImage {
+    width: 400px;
+    padding: 10px;
+  }
+
+  .mobileCenter {
+    display: flex;
+    justify-content: center;
+  }
+}
