@@ -240,6 +240,9 @@
     max-width: 100%;
   }
 
+  .meleeContainer img {
+    width: 220px;
+  }
   .weaponImage {
     height: auto;
     width: 350px;
@@ -265,7 +268,6 @@
     flex: 0 0 100%;
     max-width: 100%;
   }
-
   .weaponImage {
     height: auto;
     width: 400px;
