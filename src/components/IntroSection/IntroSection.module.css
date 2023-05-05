@@ -1,5 +1,5 @@
 .introSectionBackground {
-  background-image: url("../../assets/valorant-bg.jpg");
+  /* background-image: url("../../assets/valorant-bg.jpg"); */
   background-size: cover;
   height: 750px;
   width: 100%;
@@ -13,6 +13,44 @@
   height: 650px;
 }
 
+.prev,
+.next {
+  padding-top: 30vh;
+  height: 80vh;
+  width: 10%;
+  z-index: 10;
+  cursor: pointer;
+  color: #ff4655 !important;
+  position: relative;
+  font-size: 50px;
+  /* transition: .6s ease; */
+}
+
+.nextIcon,
+.prevIcon {
+  pointer-events: none;
+  user-select: none;
+}
+
+.nextIcon,
+.prevIcon,
+.logoContainer::selection {
+  background: rgba(0, 0, 0, 0)
+}
+
+.next {
+  right: -200px;
+}
+
+.prev {
+  left: -200px;
+}
+
+.prev:hover,
+.next:hover {
+  color: #f2f2f2;
+  background-color: rgba(0, 0, 0, 0.356)
+}
 
 .introBoxFont {
   color: antiquewhite;
@@ -40,8 +78,8 @@
 .learnMoreButton {
   box-sizing: border-box;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   background-color: transparent;
   background-color: antiquewhite;
   cursor: pointer;
@@ -50,8 +88,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-align-self: center;
-      -ms-flex-item-align: center;
-          align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
   margin: 20px;
   padding: 1.2em 2.8em;
   text-decoration: none;
@@ -59,7 +97,8 @@
   height: 50px;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   color: #fff;
   outline: 0;
 }
@@ -73,6 +112,7 @@
   -webkit-transition: background 400ms ease-in-out;
   transition: background 400ms ease-in-out;
 }
+
 .fourth:hover {
   background-position: 0;
 }
@@ -83,59 +123,59 @@
 }
 
 @keyframes slide-in {
-  0% { transform: translate3d(0, 100%, 0); }
-  100% { transform: translate3d(0, 0%, 0); }
+  0% {
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0%, 0);
+  }
 }
 
-@media only screen
-and (max-device-width: 500px) {
+@media only screen and (max-device-width: 500px) {
 
-.valorantLogo {
-  width: 350px;
-}
+  .valorantLogo {
+    width: 350px;
+  }
 
-.logoContainer {
-  text-align: center;
-}
+  .logoContainer {
+    text-align: center;
+  }
 
-.introBox {
-  width: 350px;
-}
+  .introBox {
+    width: 350px;
+  }
 
-.innerIntroBox {
-  width: 330px;
-}
-
-}
-
-@media only screen
-and (min-device-width: 501px)
-and (max-device-width: 750px) {
-
-.valorantLogo {
-  width: 500px;
-}
-
-.logoContainer {
-  text-align: center;
-}
-
-.introBox {
-  width: 350px;
-}
-
-.innerIntroBox {
-  width: 330px;
-}
+  .innerIntroBox {
+    width: 330px;
+  }
 
 }
 
-@media only screen
-and (min-device-width: 951px)
-and (max-device-width: 1050px) {
+@media only screen and (min-device-width: 501px) and (max-device-width: 750px) {
 
-.introSectionBackground {
-  height: 1000px;
+  .valorantLogo {
+    width: 500px;
+  }
+
+  .logoContainer {
+    text-align: center;
+  }
+
+  .introBox {
+    width: 350px;
+  }
+
+  .innerIntroBox {
+    width: 330px;
+  }
+
 }
+
+@media only screen and (min-device-width: 951px) and (max-device-width: 1050px) {
+
+  .introSectionBackground {
+    height: 1000px;
+  }
 
 }
