@@ -3,7 +3,7 @@ import styles from "./Maps.module.css";
 import bind from "../../assets/bind.png";
 import haven from "../../assets/haven.png";
 import ascent from "../../assets/ascent.png";
-import split from "../../assets/Split.png";
+import split from "../../assets/split.png";
 import icebox from "../../assets/Icebox.png";
 import breeze from "../../assets/Breeze.png";
 import pearl from "../../assets/Pearl.png";

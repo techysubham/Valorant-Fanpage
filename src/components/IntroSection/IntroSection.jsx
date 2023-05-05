@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./IntroSection.module.css";
-import Carousel from "react-bootstrap/Carousel";
 import logo from '../../assets/valorant.png'
 
 class IntroSection extends React.Component {
