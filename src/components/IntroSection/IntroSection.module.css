@@ -15,14 +15,17 @@
 
 .prev,
 .next {
-  padding-top: 30vh;
-  height: 80vh;
+  /* padding-top: 30vh;
+  height: 80vh; */
+  padding-top: 25vh;
+  height: 70vh;
+  top: 15vh;
   width: 10%;
   z-index: 10;
   cursor: pointer;
   color: #ff4655 !important;
-  position: relative;
-  font-size: 50px;
+  position: fixed;
+  font-size: 3rem;
   /* transition: .6s ease; */
 }
 
@@ -37,13 +40,15 @@
 .logoContainer::selection {
   background: rgba(0, 0, 0, 0)
 }
-
 .next {
-  right: -200px;
+  /* right: -22rem; */
+  right: 0rem;
+  /* right: -14vw; */
 }
-
 .prev {
-  left: -200px;
+  /* left: -22rem; */
+  left: 0rem;
+  /* left: -14vw; */
 }
 
 .prev:hover,
@@ -132,7 +137,13 @@
   }
 }
 
-@media only screen and (max-device-width: 500px) {
+@media only screen and (min-device-width: 370px) and (max-device-width: 500px) {
+
+.prev,
+.next {
+  padding-top: 20vh;
+  height: 60vh;
+}
 
   .valorantLogo {
     width: 350px;
@@ -154,6 +165,11 @@
 
 @media only screen and (min-device-width: 501px) and (max-device-width: 750px) {
 
+.prev,
+.next {
+  padding-top: 20vh;
+  height: 60vh;
+}
   .valorantLogo {
     width: 500px;
   }
