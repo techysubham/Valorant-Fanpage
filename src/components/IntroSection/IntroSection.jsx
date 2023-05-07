@@ -12,7 +12,6 @@ class IntroSection extends React.Component {
     };
     this.carousel = this.carousel.bind(this);
     this.changeBackground = this.changeBackground.bind(this);
-    // this.slideshow = this.slideshow.bind(this);
   }
   changeBackground() {
     const bgList = [
@@ -40,9 +39,9 @@ class IntroSection extends React.Component {
     this.changeBackground();
   }
   componentDidMount() {
-  console.log("here")
   try {
     setInterval(() => {
+      // eslint-disable-next-line
       this.carousel(this.state.clicks ++);
     }, 5000);
   } catch (error) {
