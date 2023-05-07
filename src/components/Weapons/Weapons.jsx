@@ -37,14 +37,14 @@ class Weapons extends React.Component {
               <img src={classic} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Semi</p>
-              <p><img src={fireratelogo} />6.75 RDS</p>
-              <p><img src={maglogo} /> 12 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Semi</p>
+              <p><img src={fireratelogo} alt="" />6.75 RDS</p>
+              <p><img src={maglogo} alt="" /> 12 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  Low <img src={penlogo} /></p>
-              <p> 78   <img src={damagelogo} /></p>
-              <p> 1.75s <img src={reloadlogo} /></p>
+              <p>  Low <img src={penlogo} alt="" /></p>
+              <p> 78   <img src={damagelogo} alt="" /></p>
+              <p> 1.75s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="shorty" className={`col-3 m-4 ${styles.weaponContainer} ${styles.shortyContainer}`}>
@@ -54,14 +54,14 @@ class Weapons extends React.Component {
               <img src={shorty} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Semi</p>
-              <p><img src={fireratelogo} />3.33 RDS</p>
-              <p><img src={maglogo} /> 2 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Semi</p>
+              <p><img src={fireratelogo} alt="" />3.33 RDS</p>
+              <p><img src={maglogo} alt="" /> 2 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  Low <img src={penlogo} /></p>
-              <p> 24   <img src={damagelogo} /></p>
-              <p> 1.75s <img src={reloadlogo} /></p>
+              <p>  Low <img src={penlogo} alt="" /></p>
+              <p> 24   <img src={damagelogo} alt="" /></p>
+              <p> 1.75s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="freenzy" className={`col-3 m-4 ${styles.weaponContainer} ${styles.freenzyContainer}`}>
@@ -71,14 +71,14 @@ class Weapons extends React.Component {
               <img src={freenzy} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Auto</p>
-              <p><img src={fireratelogo} />10 RDS</p>
-              <p><img src={maglogo} /> 13 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Auto</p>
+              <p><img src={fireratelogo} alt="" />10 RDS</p>
+              <p><img src={maglogo} alt="" /> 13 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  Low <img src={penlogo} /></p>
-              <p> 78  <img src={damagelogo} /></p>
-              <p> 1.5s <img src={reloadlogo} /></p>
+              <p>  Low <img src={penlogo} alt="" /></p>
+              <p> 78  <img src={damagelogo} alt="" /></p>
+              <p> 1.5s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="ghost" className={`col-3 m-4 ${styles.weaponContainer} ${styles.ghostContainer}`}>
@@ -88,14 +88,14 @@ class Weapons extends React.Component {
               <img src={ghost} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Semi</p>
-              <p><img src={fireratelogo} />6.75 RDS</p>
-              <p><img src={maglogo} /> 15 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Semi</p>
+              <p><img src={fireratelogo} alt="" />6.75 RDS</p>
+              <p><img src={maglogo} alt="" /> 15 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  Medium <img src={penlogo} /></p>
-              <p> 105  <img src={damagelogo} /></p>
-              <p> 1.5s <img src={reloadlogo} /></p>
+              <p>  Medium <img src={penlogo} alt="" /></p>
+              <p> 105  <img src={damagelogo} alt="" /></p>
+              <p> 1.5s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="sheriff" className={`col-3 m-4 ${styles.weaponContainer} ${styles.sheriffContainer}`}>
@@ -105,14 +105,14 @@ class Weapons extends React.Component {
               <img src={sheriff} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Semi</p>
-              <p><img src={fireratelogo} />4 RDS</p>
-              <p><img src={maglogo} /> 6 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Semi</p>
+              <p><img src={fireratelogo} alt="" />4 RDS</p>
+              <p><img src={maglogo} alt="" /> 6 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  High <img src={penlogo} /></p>
-              <p> 159  <img src={damagelogo} /></p>
-              <p> 2.25s <img src={reloadlogo} /></p>
+              <p>  High <img src={penlogo} alt="" /></p>
+              <p> 159  <img src={damagelogo} alt="" /></p>
+              <p> 2.25s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="stinger" className={`col-3 m-4 ${styles.weaponContainer} ${styles.stingerContainer}`}>
@@ -122,14 +122,14 @@ class Weapons extends React.Component {
               <img src={stinger} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Auto</p>
-              <p><img src={fireratelogo} />16 RDS</p>
-              <p><img src={maglogo} /> 20 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Auto</p>
+              <p><img src={fireratelogo} alt="" />16 RDS</p>
+              <p><img src={maglogo} alt="" /> 20 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  Low <img src={penlogo} /></p>
-              <p> 67  <img src={damagelogo} /></p>
-              <p> 2.25s <img src={reloadlogo} /></p>
+              <p>  Low <img src={penlogo} alt="" /></p>
+              <p> 67  <img src={damagelogo} alt="" /></p>
+              <p> 2.25s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="spectre" className={`col-3 m-4 ${styles.weaponContainer} ${styles.spectreContainer}`}>
@@ -139,14 +139,14 @@ class Weapons extends React.Component {
               <img src={spectre} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Auto</p>
-              <p><img src={fireratelogo} />13.33 RDS</p>
-              <p><img src={maglogo} /> 30 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Auto</p>
+              <p><img src={fireratelogo} alt="" />13.33 RDS</p>
+              <p><img src={maglogo} alt="" /> 30 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  Low <img src={penlogo} /></p>
-              <p> 78  <img src={damagelogo} /></p>
-              <p> 2.25s <img src={reloadlogo} /></p>
+              <p>  Low <img src={penlogo} alt="" /></p>
+              <p> 78  <img src={damagelogo} alt="" /></p>
+              <p> 2.25s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="bucky" className={`col-3 m-4 ${styles.weaponContainer} ${styles.buckyContainer}`}>
@@ -156,14 +156,14 @@ class Weapons extends React.Component {
               <img src={bucky} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Semi</p>
-              <p><img src={fireratelogo} />1.1 RDS</p>
-              <p><img src={maglogo} /> 5 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Semi</p>
+              <p><img src={fireratelogo} alt="" />1.1 RDS</p>
+              <p><img src={maglogo} alt="" /> 5 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  Low <img src={penlogo} /></p>
-              <p> 40  <img src={damagelogo} /></p>
-              <p> 2.5s <img src={reloadlogo} /></p>
+              <p>  Low <img src={penlogo} alt="" /></p>
+              <p> 40  <img src={damagelogo} alt="" /></p>
+              <p> 2.5s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="judge" className={`col-3 m-4 ${styles.weaponContainer} ${styles.judgeContainer}`}>
@@ -173,14 +173,14 @@ class Weapons extends React.Component {
               <img src={judge} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Auto</p>
-              <p><img src={fireratelogo} />3.5 RDS</p>
-              <p><img src={maglogo} /> 7 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Auto</p>
+              <p><img src={fireratelogo} alt="" />3.5 RDS</p>
+              <p><img src={maglogo} alt="" /> 7 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  Low <img src={penlogo} /></p>
-              <p> 34  <img src={damagelogo} /></p>
-              <p> 2.2s <img src={reloadlogo} /></p>
+              <p>  Low <img src={penlogo} alt="" /></p>
+              <p> 34  <img src={damagelogo} alt="" /></p>
+              <p> 2.2s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="bulldog" className={`col-3 m-4 ${styles.weaponContainer} ${styles.bulldogContainer}`}>
@@ -190,14 +190,14 @@ class Weapons extends React.Component {
               <img src={bulldog} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Auto</p>
-              <p><img src={fireratelogo} />10 RDS</p>
-              <p><img src={maglogo} /> 24 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Auto</p>
+              <p><img src={fireratelogo} alt="" />10 RDS</p>
+              <p><img src={maglogo} alt="" /> 24 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  Medium <img src={penlogo} /></p>
-              <p> 115  <img src={damagelogo} /></p>
-              <p> 2.5s <img src={reloadlogo} /></p>
+              <p>  Medium <img src={penlogo} alt="" /></p>
+              <p> 115  <img src={damagelogo} alt="" /></p>
+              <p> 2.5s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="guardian" className={`col-3 m-4 ${styles.weaponContainer} ${styles.guardianContainer}`}>
@@ -207,14 +207,14 @@ class Weapons extends React.Component {
               <img src={guardian} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Auto</p>
-              <p><img src={fireratelogo} />5.25 RDS</p>
-              <p><img src={maglogo} /> 12 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Auto</p>
+              <p><img src={fireratelogo} alt="" />5.25 RDS</p>
+              <p><img src={maglogo} alt="" /> 12 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  High <img src={penlogo} /></p>
-              <p> 195  <img src={damagelogo} /></p>
-              <p> 2.5s <img src={reloadlogo} /></p>
+              <p>  High <img src={penlogo} alt="" /></p>
+              <p> 195  <img src={damagelogo} alt="" /></p>
+              <p> 2.5s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="phantom" className={`col-3 m-4 ${styles.weaponContainer} ${styles.phantomContainer}`}>
@@ -224,14 +224,14 @@ class Weapons extends React.Component {
               <img src={phantom} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Auto</p>
-              <p><img src={fireratelogo} />11 RDS</p>
-              <p><img src={maglogo} /> 30 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Auto</p>
+              <p><img src={fireratelogo} alt="" />11 RDS</p>
+              <p><img src={maglogo} alt="" /> 30 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  Medium <img src={penlogo} /></p>
-              <p> 156  <img src={damagelogo} /></p>
-              <p> 2.5s <img src={reloadlogo} /></p>
+              <p>  Medium <img src={penlogo} alt="" /></p>
+              <p> 156  <img src={damagelogo} alt="" /></p>
+              <p> 2.5s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="vandal" className={`col-3 m-4 ${styles.weaponContainer} ${styles.vandalContainer}`}>
@@ -241,14 +241,14 @@ class Weapons extends React.Component {
               <img src={vandal} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Auto</p>
-              <p><img src={fireratelogo} />9.75 RDS</p>
-              <p><img src={maglogo} /> 25 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Auto</p>
+              <p><img src={fireratelogo} alt="" />9.75 RDS</p>
+              <p><img src={maglogo} alt="" /> 25 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  Medium <img src={penlogo} /></p>
-              <p> 160  <img src={damagelogo} /></p>
-              <p> 2.5s <img src={reloadlogo} /></p>
+              <p>  Medium <img src={penlogo} alt="" /></p>
+              <p> 160  <img src={damagelogo} alt="" /></p>
+              <p> 2.5s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="marshal" className={`col-3 m-4 ${styles.weaponContainer} ${styles.marshalContainer}`}>
@@ -258,14 +258,14 @@ class Weapons extends React.Component {
               <img src={marshal} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Semi</p>
-              <p><img src={fireratelogo} />1.5 RDS</p>
-              <p><img src={maglogo} /> 5 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Semi</p>
+              <p><img src={fireratelogo} alt="" />1.5 RDS</p>
+              <p><img src={maglogo} alt="" /> 5 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  Medium <img src={penlogo} /></p>
-              <p> 202  <img src={damagelogo} /></p>
-              <p> 2.5s <img src={reloadlogo} /></p>
+              <p>  Medium <img src={penlogo} alt="" /></p>
+              <p> 202  <img src={damagelogo} alt="" /></p>
+              <p> 2.5s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="operator" className={`col-3 m-4 ${styles.weaponContainer} ${styles.operatorContainer}`}>
@@ -275,14 +275,14 @@ class Weapons extends React.Component {
               <img src={operator} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Semi</p>
-              <p><img src={fireratelogo} />0.6 RDS</p>
-              <p><img src={maglogo} /> 5 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Semi</p>
+              <p><img src={fireratelogo} alt="" />0.6 RDS</p>
+              <p><img src={maglogo} alt="" /> 5 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  High <img src={penlogo} /></p>
-              <p> 255  <img src={damagelogo} /></p>
-              <p> 3.7s <img src={reloadlogo} /></p>
+              <p>  High <img src={penlogo} alt="" /></p>
+              <p> 255  <img src={damagelogo} alt="" /></p>
+              <p> 3.7s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="ares" className={`col-3 m-4 ${styles.weaponContainer} ${styles.aresContainer}`}>
@@ -292,14 +292,14 @@ class Weapons extends React.Component {
               <img src={ares} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Auto</p>
-              <p><img src={fireratelogo} />13 RDS</p>
-              <p><img src={maglogo} /> 50 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Auto</p>
+              <p><img src={fireratelogo} alt="" />13 RDS</p>
+              <p><img src={maglogo} alt="" /> 50 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  High <img src={penlogo} /></p>
-              <p> 72  <img src={damagelogo} /></p>
-              <p> 3.25s <img src={reloadlogo} /></p>
+              <p>  High <img src={penlogo} alt="" /></p>
+              <p> 72  <img src={damagelogo} alt="" /></p>
+              <p> 3.25s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="odin" className={`col-3 m-4 ${styles.weaponContainer} ${styles.odinContainer}`}>
@@ -309,14 +309,14 @@ class Weapons extends React.Component {
               <img src={odin} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Auto</p>
-              <p><img src={fireratelogo} />12 RDS</p>
-              <p><img src={maglogo} /> 100 RDS</p>
+              <p> <img src={primaryfirelogo} alt="" /> Auto</p>
+              <p><img src={fireratelogo} alt="" />12 RDS</p>
+              <p><img src={maglogo} alt="" /> 100 RDS</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  High <img src={penlogo} /></p>
-              <p> 95  <img src={damagelogo} /></p>
-              <p> 5s <img src={reloadlogo} /></p>
+              <p>  High <img src={penlogo} alt="" /></p>
+              <p> 95  <img src={damagelogo} alt="" /></p>
+              <p> 5s <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
           <div id="melee" className={`col-3 m-4 ${styles.weaponContainer} ${styles.meleeContainer}`}>
@@ -326,14 +326,14 @@ class Weapons extends React.Component {
               <img src={melee} alt="" className={`${styles.weaponImage} ${styles.slideIn}`} />
             </div>
             <div className={`${styles.leftFlank}`}>
-              <p> <img src={primaryfirelogo} /> Stab</p>
-              <p><img src={fireratelogo} />N.A</p>
-              <p><img src={maglogo} /> N.A</p>
+              <p> <img src={primaryfirelogo} alt="" /> Stab</p>
+              <p><img src={fireratelogo} alt="" />N.A</p>
+              <p><img src={maglogo} alt="" /> N.A</p>
             </div>
             <div className={`${styles.rightFlank}`}>
-              <p>  Low <img src={penlogo} /></p>
-              <p> 75  <img src={damagelogo} /></p>
-              <p> N.A <img src={reloadlogo} /></p>
+              <p>  Low <img src={penlogo} alt="" /></p>
+              <p> 75  <img src={damagelogo} alt="" /></p>
+              <p> N.A <img src={reloadlogo} alt="" /></p>
             </div>
           </div>
         </div>
