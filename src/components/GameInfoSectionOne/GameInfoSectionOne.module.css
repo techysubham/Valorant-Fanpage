@@ -1,18 +1,23 @@
 .sectionOne {
   height: 100%;
   width: 100%;
-  background: antiquewhite;
+  background: linear-gradient(
+    -50deg,
+    rgba(59, 58, 58, 1) 55%,
+    rgba(250, 128, 49, 1) 100%
+  );
 }
 
 .bigFont {
-  font-family: 'Anton', sans-serif;
-  font-size: 4.2rem;
+  font-family: valorax;
+  src: url(../../assets/valorax.otf);
+  font-weight: bold;
 }
 
 .smallFont {
-  font-family: 'Bitter', serif;
+  font-family: "Anton", sans-serif;
   line-height: 33px;
-  color: grey;
+  color: #212a3e;
 }
 
 .topPadding {
@@ -29,8 +34,12 @@
 }
 
 @keyframes slide-in {
-  0% { transform: translate3d(0, 100%, 0); }
-  100% { transform: translate3d(0, 0%, 0); }
+  0% {
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0%, 0);
+  }
 }
 
 .fadeIn {
@@ -39,17 +48,21 @@
 }
 
 @keyframes fade-in {
-  0% { opacity: 0; }
-  50% { opacity: 0;}
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-@media only screen
-and (max-device-width: 500px) {
-
+@media only screen and (max-device-width: 500px) {
   .topPadding {
-  padding-top: 50px;
-}
+    padding-top: 50px;
+  }
 
   .gameInfo {
     flex: 0 0 100%;
@@ -71,13 +84,10 @@ and (max-device-width: 500px) {
   }
 }
 
-@media only screen
-and (min-device-width: 501px)
-and (max-device-width: 750px) {
-
+@media only screen and (min-device-width: 501px) and (max-device-width: 750px) {
   .topPadding {
-  padding-top: 50px;
-}
+    padding-top: 50px;
+  }
 
   .gameInfo {
     flex: 0 0 100%;
@@ -97,16 +107,12 @@ and (max-device-width: 750px) {
     display: flex;
     justify-content: center;
   }
-
 }
 
-@media only screen
-and (min-device-width: 751px)
-and (max-device-width: 1450px) {
-
-   .topPadding {
-  padding-top: 50px;
-}
+@media only screen and (min-device-width: 751px) and (max-device-width: 1450px) {
+  .topPadding {
+    padding-top: 50px;
+  }
 
   .gameInfo {
     flex: 0 0 100%;
@@ -136,5 +142,4 @@ and (max-device-width: 1450px) {
     flex: 0 0 90%;
     max-width: 90%;
   }
-
 }
