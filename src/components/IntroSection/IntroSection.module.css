@@ -2,8 +2,10 @@
   background-size: cover;
   height: 750px;
   width: 100%;
+  transition-property: background;
+  transition-duration: 3s;
+  transition-delay: 2s;
 }
-
 .valorantLogo {
   width: 700px;
 }
@@ -25,7 +27,6 @@
   color: #ff4655 !important;
   position: fixed;
   font-size: 3rem;
-  transition: .6s ease;
 }
 
 .nextIcon,
@@ -39,11 +40,13 @@
 .logoContainer::selection {
   background: rgba(0, 0, 0, 0)
 }
+
 .next {
   /* right: -22rem; */
   right: 0rem;
   /* right: -14vw; */
 }
+
 .prev {
   /* left: -22rem; */
   left: 0rem;
@@ -136,16 +139,19 @@
   }
 }
 
+
 @media only screen and (min-device-width: 350px) and (max-device-width: 500px) {
 
-.prev,
-.next {
-  display: none;
-}
-.nextIcon,
-.prevIcon {
- display: none;
-}
+  .prev,
+  .next {
+    display: none;
+  }
+
+  .nextIcon,
+  .prevIcon {
+    display: none;
+  }
+
   .valorantLogo {
     width: 350px;
   }
@@ -169,11 +175,12 @@
 
 @media only screen and (min-device-width: 501px) and (max-device-width: 750px) {
 
-.prev,
-.next {
-  padding-top: 20vh;
-  height: 60vh;
-}
+  .prev,
+  .next {
+    padding-top: 20vh;
+    height: 60vh;
+  }
+
   .valorantLogo {
     width: 500px;
   }
