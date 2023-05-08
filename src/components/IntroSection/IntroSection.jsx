@@ -8,16 +8,18 @@ class IntroSection extends React.Component {
     this.setToGameInfoScreen = this.setToGameInfoScreen.bind(this)
     this.state = {
       clicks: 0,
-      backgroundUrl: "url('https://images3.alphacoders.com/114/1149319.jpg')",
+      backgroundUrl: "url('https://images3.alphacoders.com/114/1149319.jpg') no-repeat center center/cover",
     };
     this.carousel = this.carousel.bind(this);
     this.changeBackground = this.changeBackground.bind(this);
   }
   changeBackground() {
     const bgList = [
-      "url('https://images3.alphacoders.com/114/1149319.jpg')",
-      "url('https://rare-gallery.com/mocahbig/394521-valorant-game-agents-hero-4k-pc-wallpaper.jpg')",
-      "url('https://images.alphacoders.com/128/1282982.jpg')",
+      "url('https://images3.alphacoders.com/114/1149319.jpg') no-repeat center center/cover",
+      "url('https://rare-gallery.com/mocahbig/394521-valorant-game-agents-hero-4k-pc-wallpaper.jpg') no-repeat center center/cover",
+      "url('https://images8.alphacoders.com/114/1149389.jpg') no-repeat center center/cover",
+      "url('https://images3.alphacoders.com/108/1081932.jpg') no-repeat center center/cover",
+      "url('https://images.hdqwalls.com/wallpapers/omen-valorant-2020-artwork-80.jpg') no-repeat center center/cover",
     ];
     let clicks = this.state.clicks + 1;
     if (clicks >= bgList.length) {
@@ -55,7 +57,7 @@ class IntroSection extends React.Component {
   }
   render() {
     return (
-      <div className={`d-flex justify-content-center align-items-center ${styles.introSectionBackground}`} style={{ backgroundImage: this.state.backgroundUrl }}>
+      <div className={`d-flex justify-content-center align-items-center ${styles.introSectionBackground}`} style={{ background: this.state.backgroundUrl }}>
         <div className={`d-flex justify-content-center ${styles.prev}`} onClick={() => this.carousel(this.state.clicks + 1)}>
           <p  className={`${styles.prevIcon}`} >&#10094;</p>
         </div>

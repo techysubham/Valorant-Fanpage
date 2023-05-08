@@ -1,5 +1,4 @@
 .introSectionBackground {
-  /* background-image: url("../../assets/valorant-bg.jpg"); */
   background-size: cover;
   height: 750px;
   width: 100%;
@@ -26,7 +25,7 @@
   color: #ff4655 !important;
   position: fixed;
   font-size: 3rem;
-  /* transition: .6s ease; */
+  transition: .6s ease;
 }
 
 .nextIcon,
@@ -137,33 +136,15 @@
   }
 }
 
-@media only screen and (min-device-width: 370px) and (max-device-width: 500px) {
+@media only screen and (min-device-width: 350px) and (max-device-width: 500px) {
 
 .prev,
 .next {
-  /* background-color: black; */
-  height: 10vh;
-  top: 40vh;
-  position: relative;
-  padding: 30vw;
-  /* width: 600px; */
-}
-.prev:hover,
-.next:hover {
-  background-color: transparent;
-}
-.learnMoreButton{
-  z-index: 10;
+  display: none;
 }
 .nextIcon,
 .prevIcon {
-display: none;
-}
-.next {
-  right: 42vw;
-}
-.prev {
-  left: 42vw;
+ display: none;
 }
   .valorantLogo {
     width: 350px;
