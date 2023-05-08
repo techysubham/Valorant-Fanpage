@@ -3,67 +3,116 @@
   padding: 10px;
 }
 
-.agentContainer:hover{
+.agentContainer:hover {
   cursor: pointer;
 }
 
 .breachContainer {
-  background: rgb(59,58,58);
-  background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(250,128,49,1) 100%);
+  background: rgb(59, 58, 58);
+  background: linear-gradient(
+    55deg,
+    rgba(59, 58, 58, 1) 50%,
+    rgba(250, 128, 49, 1) 100%
+  );
 }
 
 .brimstoneContainer {
-  background: rgb(59,58,58);
-  background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(132,149,164,1) 100%);
+  background: rgb(59, 58, 58);
+  background: linear-gradient(
+    55deg,
+    rgba(59, 58, 58, 1) 50%,
+    rgba(132, 149, 164, 1) 100%
+  );
 }
 
 .cypherContainer {
-  background: rgb(59,58,58);
-  background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(216,217,202,1) 100%);
+  background: rgb(59, 58, 58);
+  background: linear-gradient(
+    55deg,
+    rgba(59, 58, 58, 1) 50%,
+    rgba(216, 217, 202, 1) 100%
+  );
 }
 
 .jettContainer {
-  background: rgb(59,58,58);
-  background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(93,188,210,1) 100%);
+  background: rgb(59, 58, 58);
+  background: linear-gradient(
+    55deg,
+    rgba(59, 58, 58, 1) 50%,
+    rgba(93, 188, 210, 1) 100%
+  );
 }
 
 .omenContainer {
-  background: rgb(59,58,58);
-  background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(105,101,211,1) 100%);
+  background: rgb(59, 58, 58);
+  background: linear-gradient(
+    55deg,
+    rgba(59, 58, 58, 1) 50%,
+    rgba(105, 101, 211, 1) 100%
+  );
 }
 
 .phoenixContainer {
-  background: rgb(59,58,58);
-  background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(199,100,38,1) 100%);
+  background: rgb(59, 58, 58);
+  background: linear-gradient(
+    55deg,
+    rgba(59, 58, 58, 1) 50%,
+    rgba(199, 100, 38, 1) 100%
+  );
 }
 
 .razeContainer {
-  background: rgb(59,58,58);
-  background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(244,188,92,1) 100%);
+  background: rgb(59, 58, 58);
+  background: linear-gradient(
+    55deg,
+    rgba(59, 58, 58, 1) 50%,
+    rgba(244, 188, 92, 1) 100%
+  );
 }
 
 .sageContainer {
-  background: rgb(59,58,58);
-  background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(112,254,201,1) 100%);
+  background: rgb(59, 58, 58);
+  background: linear-gradient(
+    55deg,
+    rgba(59, 58, 58, 1) 50%,
+    rgba(112, 254, 201, 1) 100%
+  );
 }
 
 .sovaContainer {
-  background: rgb(59,58,58);
-  background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(54,81,118,1) 100%);
+  background: rgb(59, 58, 58);
+  background: linear-gradient(
+    55deg,
+    rgba(59, 58, 58, 1) 50%,
+    rgba(54, 81, 118, 1) 100%
+  );
 }
 
 .viperContainer {
-  background: rgb(59,58,58);
-  background: linear-gradient(55deg, rgba(59,58,58,1) 50%, rgba(36,98,72,1) 100%);
+  background: rgb(59, 58, 58);
+  background: linear-gradient(
+    55deg,
+    rgba(59, 58, 58, 1) 50%,
+    rgba(36, 98, 72, 1) 100%
+  );
+}
+
+.yoruContainer {
+  background: rgb(59, 58, 58);
+  background: linear-gradient(
+    55deg,
+    rgba(59, 58, 58, 1) 50%,
+    rgba(69, 48, 77, 1) 100%
+  );
 }
 
 .background {
-  background-color: rgb(59,58,58);
+  background-color: rgb(59, 58, 58);
 }
 
 .agentName {
-  font-family: 'Anton', sans-serif;
-  background-color: #FF4655;
+  font-family: "Anton", sans-serif;
+  background-color: #ff4655;
   z-index: 1000;
 }
 
@@ -73,24 +122,28 @@
 }
 
 @keyframes slide-in {
-  0% { transform: translate3d(0, 30%, 0); }
-  70% { transform: translate3d(0, -2%, 0); }
-  100% { transform: translate3d(0, 0%, 0); }
+  0% {
+    transform: translate3d(0, 30%, 0);
+  }
+  70% {
+    transform: translate3d(0, -2%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0%, 0);
+  }
 }
 
-@media only screen
-and (max-device-width: 500px) {
-
+@media only screen and (max-device-width: 500px) {
   .agentContainer {
     flex: 0 0 100%;
     max-width: 100%;
   }
 
   .agentImage {
-  width: 300px;
-  height: 300px;
-  padding: 10px;
-}
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+  }
 
   .mobileCenter {
     display: flex;
@@ -98,20 +151,17 @@ and (max-device-width: 500px) {
   }
 }
 
-@media only screen
-and (min-device-width: 501px)
-and (max-device-width: 750px) {
-
+@media only screen and (min-device-width: 501px) and (max-device-width: 750px) {
   .agentContainer {
     flex: 0 0 100%;
     max-width: 100%;
   }
 
   .agentImage {
-  width: 300px;
-  height: 300px;
-  padding: 10px;
-}
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+  }
 
   .mobileCenter {
     display: flex;
@@ -119,20 +169,17 @@ and (max-device-width: 750px) {
   }
 }
 
-@media only screen
-and (min-device-width: 751px)
-and (max-device-width: 1550px) {
-
+@media only screen and (min-device-width: 751px) and (max-device-width: 1550px) {
   .agentContainer {
     flex: 0 0 40%;
     max-width: 40%;
   }
 
   .agentImage {
-  width: 300px;
-  height: 300px;
-  padding: 10px;
-}
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+  }
 
   .mobileCenter {
     display: flex;
