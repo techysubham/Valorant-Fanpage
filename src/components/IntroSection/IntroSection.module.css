@@ -155,7 +155,10 @@
   }
 
   .introBox {
+    background-color: rgba(0, 0, 0, 0);
     width: 350px;
+    margin-top: 170px;
+    filter: blur(0.25px);
   }
 
   .innerIntroBox {
