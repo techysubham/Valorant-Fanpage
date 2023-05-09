@@ -25,7 +25,7 @@
   color: #ff4655 !important;
   position: fixed;
   font-size: 3rem;
-  transition: .6s ease;
+  transition: 0.6s ease;
 }
 
 .nextIcon,
@@ -37,7 +37,7 @@
 .nextIcon,
 .prevIcon,
 .logoContainer::selection {
-  background: rgba(0, 0, 0, 0)
+  background: rgba(0, 0, 0, 0);
 }
 .next {
   /* right: -22rem; */
@@ -58,11 +58,11 @@
 
 .introBoxFont {
   color: antiquewhite;
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
 }
 
 .font {
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
 }
 
 .introBox {
@@ -70,22 +70,29 @@
   height: 200px;
   background-color: #0f1923;
   border-radius: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(3px);
+  background: inherit;
+  overflow: hidden;
+  border: 1px solid antiquewhite;
 }
 
 .innerIntroBox {
   width: 380px;
   height: 180px;
   padding: 10px;
-  border: 1px solid antiquewhite;
 }
 
 .learnMoreButton {
+  color: #fff;
   box-sizing: border-box;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: transparent;
-  background-color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0);
+  backdrop-filter: saturate(180%) blur(1px);
+  background: inherit;
+  overflow: hidden;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -99,6 +106,8 @@
   text-decoration: none;
   text-align: center;
   height: 50px;
+  border: 1px solid;
+  border-radius: 10px;
 }
 
 .btn:hover,
@@ -108,9 +117,13 @@
 }
 
 .fourth {
-  border-color: #FF4655;
-  background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
-  background-image: linear-gradient(45deg, #FF4655 50%, transparent 50%);
+  border-color: #ff4655;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #f1c40f 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(45deg, #ff4655 50%, transparent 50%);
   background-position: 100%;
   background-size: 400%;
   -webkit-transition: background 400ms ease-in-out;
@@ -137,15 +150,14 @@
 }
 
 @media only screen and (min-device-width: 350px) and (max-device-width: 500px) {
-
-.prev,
-.next {
-  display: none;
-}
-.nextIcon,
-.prevIcon {
- display: none;
-}
+  .prev,
+  .next {
+    display: none;
+  }
+  .nextIcon,
+  .prevIcon {
+    display: none;
+  }
   .valorantLogo {
     width: 350px;
   }
@@ -155,22 +167,39 @@
   }
 
   .introBox {
-    width: 350px;
+    padding: none;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: saturate(180%) blur(3px);
+    width: 250px;
+    margin-top: 170px;
+    background: inherit;
+    overflow: hidden;
   }
 
   .innerIntroBox {
-    width: 330px;
+    margin-top: 0;
+    width: 230px;
+    border-radius: 10px;
   }
-
+  .learnMoreButton {
+    color: #fff;
+    margin: none;
+    width: 50%;
+    padding: none;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: saturate(180%) blur(3px);
+    background: inherit;
+    overflow: hidden;
+  }
 }
 
 @media only screen and (min-device-width: 501px) and (max-device-width: 750px) {
-
-.prev,
-.next {
-  padding-top: 20vh;
-  height: 60vh;
-}
+  .prev,
+  .next {
+    padding-top: 20vh;
+    height: 60vh;
+  }
   .valorantLogo {
     width: 500px;
   }
@@ -186,13 +215,10 @@
   .innerIntroBox {
     width: 330px;
   }
-
 }
 
 @media only screen and (min-device-width: 951px) and (max-device-width: 1050px) {
-
   .introSectionBackground {
     height: 1000px;
   }
-
 }
