@@ -2,8 +2,10 @@
   background-size: cover;
   height: 750px;
   width: 100%;
+  transition-property: background;
+  transition-duration: 3s;
+  transition-delay: 2s;
 }
-
 .valorantLogo {
   width: 700px;
 }
@@ -27,7 +29,6 @@
   font-size: 3rem;
   transition: 0.6s ease;
 }
-
 .nextIcon,
 .prevIcon {
   pointer-events: none;
@@ -39,11 +40,13 @@
 .logoContainer::selection {
   background: rgba(0, 0, 0, 0);
 }
+
 .next {
   /* right: -22rem; */
   right: 0rem;
   /* right: -14vw; */
 }
+
 .prev {
   /* left: -22rem; */
   left: 0rem;
@@ -150,15 +153,18 @@
 }
 
 @media only screen and (min-device-width: 350px) and (max-device-width: 500px) {
-  .prev,
+  <<<<<<< HEAD =======>>>>>>>abda4f40429343ee52ef734c51c0dd2fbd20d6a6 .prev,
   .next {
     display: none;
   }
-  .nextIcon,
+  <<<<<<< HEAD =======>>>>>>>abda4f40429343ee52ef734c51c0dd2fbd20d6a6 .nextIcon,
   .prevIcon {
     display: none;
   }
-  .valorantLogo {
+  <<<<<<<
+    HEAD
+    =======>>>>>>>abda4f40429343ee52ef734c51c0dd2fbd20d6a6
+    .valorantLogo {
     width: 350px;
   }
 
@@ -195,12 +201,15 @@
 }
 
 @media only screen and (min-device-width: 501px) and (max-device-width: 750px) {
-  .prev,
+  <<<<<<< HEAD =======>>>>>>>abda4f40429343ee52ef734c51c0dd2fbd20d6a6 .prev,
   .next {
     padding-top: 20vh;
     height: 60vh;
   }
-  .valorantLogo {
+  <<<<<<<
+    HEAD
+    =======>>>>>>>abda4f40429343ee52ef734c51c0dd2fbd20d6a6
+    .valorantLogo {
     width: 500px;
   }
 
