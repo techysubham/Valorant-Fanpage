@@ -153,18 +153,15 @@
 }
 
 @media only screen and (min-device-width: 350px) and (max-device-width: 500px) {
-  <<<<<<< HEAD =======>>>>>>>abda4f40429343ee52ef734c51c0dd2fbd20d6a6 .prev,
+  .prev,
   .next {
     display: none;
   }
-  <<<<<<< HEAD =======>>>>>>>abda4f40429343ee52ef734c51c0dd2fbd20d6a6 .nextIcon,
+  .nextIcon,
   .prevIcon {
     display: none;
   }
-  <<<<<<<
-    HEAD
-    =======>>>>>>>abda4f40429343ee52ef734c51c0dd2fbd20d6a6
-    .valorantLogo {
+  .valorantLogo {
     width: 350px;
   }
 
@@ -173,6 +170,7 @@
   }
 
   .introBox {
+    width: 350px;
     padding: none;
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: saturate(180%) blur(3px);
@@ -186,6 +184,17 @@
     margin-top: 0;
     width: 230px;
     border-radius: 10px;
+  }
+  .learnMoreButton {
+    color: #fff;
+    margin: none;
+
+    padding: none;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: saturate(180%) blur(3px);
+    background: inherit;
+    overflow: hidden;
   }
   .learnMoreButton {
     color: #fff;
