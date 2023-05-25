@@ -2,9 +2,8 @@
   background-size: cover;
   height: 750px;
   width: 100%;
-  transition-property: background;
-  transition-duration: 3s;
-  transition-delay: 2s;
+  transition: background;
+  transition-duration: 1s;
 }
 .valorantLogo {
   width: 700px;
@@ -210,14 +209,10 @@
 }
 
 @media only screen and (min-device-width: 501px) and (max-device-width: 750px) {
-  <<<<<<< HEAD =======>>>>>>>abda4f40429343ee52ef734c51c0dd2fbd20d6a6 .prev,
   .next {
     padding-top: 20vh;
     height: 60vh;
   }
-  <<<<<<<
-    HEAD
-    =======>>>>>>>abda4f40429343ee52ef734c51c0dd2fbd20d6a6
     .valorantLogo {
     width: 500px;
   }
