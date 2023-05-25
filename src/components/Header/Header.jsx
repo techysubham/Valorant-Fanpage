@@ -125,7 +125,7 @@ class Header extends React.Component {
             <img src={logo} alt="" className={styles.logo} onClick={this.setScreenToMain}/>
           </div>
           <div className={`col-2 ${styles.showBars}`}>
-            <i onClick={this.toggleNavBar} class={`fas fa-bars fa-2x ${styles.bars}`}></i>
+            <i onClick={this.toggleNavBar} className={`fas fa-bars fa-2x ${styles.bars}`}></i>
               {this.showNavBar()}
           </div>
           <div className={`col-2 ${styles.headerFont} ${styles.navLinks}`}>
