@@ -9,7 +9,7 @@ A website using React, JavaScript, HTML5, and CSS3/Bootstrap to display Valorant
   <li>Bootstrap 4</li>
 
   # Live Demo
-Try the application at <a href="http://valorant.danny-dae-kim.com/">http://valorant.danny-dae-kim.com</a>
+Try the application at <a href="https://capable-lollipop-e2537f.netlify.app/">https://capable-lollipop-e2537f.netlify.app/</a>
 
 # Preview
 <div class="center-img">
