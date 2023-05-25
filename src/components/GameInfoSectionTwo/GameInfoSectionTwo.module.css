@@ -1,11 +1,9 @@
 .sectionOne {
   height: 700px;
   width: 100%;
-  background: linear-gradient(
-    140deg,
-    rgba(59, 58, 58, 1) 50%,
-    rgba(132, 149, 164, 1) 100%
-  );
+  background: linear-gradient(140deg,
+      rgba(59, 58, 58, 1) 50%,
+      rgba(132, 149, 164, 1) 100%);
 }
 
 .bigFont {
@@ -37,6 +35,7 @@
   0% {
     transform: translate3d(0, 100%, 0);
   }
+
   100% {
     transform: translate3d(0, 0%, 0);
   }
@@ -51,9 +50,11 @@
   0% {
     opacity: 0;
   }
+
   50% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -74,7 +75,7 @@
   }
 
   .sectionOne {
-    height: 900px;
+    height: 100%;
   }
 
   .mobileCenter {
