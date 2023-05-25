@@ -181,11 +181,11 @@
   }
 
   .introBox {
-    width: 350px;
     padding: none;
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: saturate(180%) blur(3px);
     width: 250px;
+    height: 150px;
     margin-top: 170px;
     background: inherit;
     overflow: hidden;
@@ -197,22 +197,13 @@
     border-radius: 10px;
   }
 
-  .learnMoreButton {
-    color: #fff;
-    margin: none;
-
-    padding: none;
-    border-radius: 10px;
-    background: rgba(0, 0, 0, 0.8);
-    backdrop-filter: saturate(180%) blur(3px);
-    background: inherit;
-    overflow: hidden;
-  }
 
   .learnMoreButton {
     color: #fff;
     margin: none;
     width: 50%;
+    position: absolute;
+    bottom: -10px;
     padding: none;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.8);

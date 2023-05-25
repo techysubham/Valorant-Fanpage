@@ -41,16 +41,18 @@ class IntroSection extends React.Component {
     this.changeBackground();
   }
   componentDidMount() {
-  try {
-    setInterval(() => {
-      // eslint-disable-next-line
-      this.carousel(this.state.clicks ++);
-    }, 5000);
-  } catch (error) {
-    console.log('Error:', error);
+    try {
+      setInterval(() => {
+        // eslint-disable-next-line
+        this.carousel(this.state.clicks++);
+      }, 5000);
+    } catch (error) {
+      console.log('Error:', error);
+    }
   }
+  componentWillUnmount() {
+    clearInterval(this.interval);
   }
-
   setToGameInfoScreen() {
     const setScreenMethod = this.props.setScreen;
     setScreenMethod("gameInfo")
@@ -59,7 +61,7 @@ class IntroSection extends React.Component {
     return (
       <div className={`d-flex justify-content-center align-items-center ${styles.introSectionBackground}`} style={{ background: this.state.backgroundUrl }}>
         <div className={`d-flex justify-content-center ${styles.prev}`} onClick={() => this.carousel(this.state.clicks + 1)}>
-          <p  className={`${styles.prevIcon}`} >&#10094;</p>
+          <p className={`${styles.prevIcon}`} >&#10094;</p>
         </div>
         <div className={styles.logoContainer}>
           <img src={logo} alt="" className={`${styles.slideIn} ${styles.valorantLogo}`} />
