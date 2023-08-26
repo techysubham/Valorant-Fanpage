@@ -16,7 +16,6 @@ class IntroSection extends React.Component {
   changeBackground() {
     const bgList = [
       "url('https://images3.alphacoders.com/114/1149319.jpg') no-repeat center center/cover",
-      "url('https://rare-gallery.com/mocahbig/394521-valorant-game-agents-hero-4k-pc-wallpaper.jpg') no-repeat center center/cover",
       "url('https://images8.alphacoders.com/114/1149389.jpg') no-repeat center center/cover",
       "url('https://images3.alphacoders.com/108/1081932.jpg') no-repeat center center/cover",
       "url('https://images.hdqwalls.com/wallpapers/omen-valorant-2020-artwork-80.jpg') no-repeat center center/cover",
